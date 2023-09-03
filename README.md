@@ -2,8 +2,7 @@
 
 
 <div style="text-align:center;">
-    ![Este é meu time!](![DwightSchruteGIF](https://github.com/Ridd1kulusC0d3r/OSINT/assets/142614578/64132cb9-0c20-4937-a5c8-5ba1fc09a167)
-)
+    ![Este é meu time!](https://github-production-user-asset-6210df.s3.amazonaws.com/142614578/265283850-64132cb9-0c20-4937-a5c8-5ba1fc09a167.gif)
 </div>
 
 
