@@ -1,8 +1,8 @@
 #  🧠 Bem-vindo ao meu mundo de OSINT no GitHub By Ridd1kulusC0d3r 🔍
 
-![Este é meu time!](![DwightSchruteTheOfficeGIF](https://github.com/Ridd1kulusC0d3r/Config_profile/assets/142614578/3296237a-1776-42c3-9507-69d787287c73))
+
 <div style="text-align:center;">
-    ![Texto alternativo](URL_da_imagem)
+    ![Este é meu time!](![DwightSchruteTheOfficeGIF](https://github.com/Ridd1kulusC0d3r/Config_profile/assets/142614578/3296237a-1776-42c3-9507-69d787287c73))
 </div>
 
 
