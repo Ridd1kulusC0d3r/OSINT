@@ -1,17 +1,11 @@
 #  🧠 Bem-vindo ao meu guia de estudos para OSINT no GitHub By Ridd1kulusC0d3r 🔍
 
-<div align="center">
-![DWIT](https://github.com/Ridd1kulusC0d3r/OSINT/assets/142614578/576b2a5e-559c-4651-9f7e-66c53ab53248)
-</div>
-    
+
 # Sumário
 * [Introdução](#introdução)
-* [Redes Sociais](#Redes Sociais)
-* [Uso](#uso)
-* [Conclusão](#conclusão)
-* 
+* [Contato](#Contato)
 
-## Introdução 
+# Introdução 
 
 Oi, eu sou o Ridd1kulusC0d3r, e estou apaixonado pelo incrível universo da Inteligência de Fontes Abertas (~~Também conhecido como~~ __OSINT__) e tudo o que podemos explorar! Sou um profissional de segurança cibernética e um entusiasta em investigação digital e CTI, venho neste repositório compartilhar mesmo que seja um pouquinho do que tenho aprendido sobre OSINT
 
@@ -21,4 +15,5 @@ Fique à vontade para explorar meus repositórios, fazer perguntas ou mesmo suge
 
 Vamos aprender, colaborar e compartilhar os aprendizados sobre OSINT juntos? 🌐🧐
 
-## Redes Sociais
+
+## Contato
