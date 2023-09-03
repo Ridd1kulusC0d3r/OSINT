@@ -1,5 +1,12 @@
-#  🧠 Bem-vindo ao meu mundo de OSINT no GitHub! 🔍
+#  🧠 Bem-vindo ao meu mundo de OSINT no GitHub By Ridd1kulusC0d3r 🔍
 
+* [Introdução](#introdução)
+* [Configuração](#configuração)
+* [Uso](#uso)
+* [Conclusão](#conclusão)
+* 
+
+### Introdução {#introdução}
 Oi, eu sou o Ridd1kulusC0d3r, e estou apaixonado pelo incrível universo da Inteligência de Fontes Abertas ( Também conhecido como __OSINT__) e tudo o que podemos explorar! Sou um profissional de segurança cibernética e um entusiasta em investigação digital e CTI, venho neste repositório compartilhar mesmo que seja um pouquinho do que tenho aprendido sobre OSINT
 
 Aqui, você encontrará uma variedade de projetos relacionados à OSINT, que vão desde scripts e ferramentas de coleta de dados até técnicas avançadas de análise. Minha missão é contribuir para a comunidade de segurança cibernética, compartilhando conhecimento, colaborando com colegas entusiastas e promovendo boas práticas em OSINT.
