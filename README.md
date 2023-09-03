@@ -1,8 +1,10 @@
 #  🧠 Bem-vindo ao meu mundo de OSINT no GitHub By Ridd1kulusC0d3r 🔍
 
 
-<div style="text-align:center;">
-    ![Este é meu time!](https://github-production-user-asset-6210df.s3.amazonaws.com/142614578/265283850-64132cb9-0c20-4937-a5c8-5ba1fc09a167.gif)
+<div align="center">
+
+![Nome da imagem caso ela não carregue](Copie aqui o link da sua imagem](https://github.com/Ridd1kulusC0d3r/Config_profile/assets/142614578/3296237a-1776-42c3-9507-69d787287c73)
+
 </div>
 
 
