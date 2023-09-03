@@ -1,6 +1,9 @@
 #  🧠 Bem-vindo ao meu guia de estudos para OSINT no GitHub By Ridd1kulusC0d3r 🔍
 
-
+<div align="center">
+    <img width="tamanho da imagem" title="Meu time" src="https://github-production-user-asset-6210df.s3.amazonaws.com/142614578/261862139-3296237a-1776-42c3-9507-69d787287c73.gif"/>
+<div>
+  
 # Sumário
 * [Introdução](#introdução)
 * [Configuração](#configuração)
