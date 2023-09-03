@@ -1,9 +1,12 @@
 #  🧠 Bem-vindo ao meu guia de estudos para OSINT no GitHub By Ridd1kulusC0d3r 🔍
 
+<div style="text-align:center;">
+    ![Texto alternativo](assets/142614578/af4beec9-3158-40fb-8eae-b6af87a76f41.gif)
+</div>
 
 # Sumário
 * [Introdução](#introdução)
-* [Contato](#Contato)
+* [Contato](Contato)
 
 # Introdução 
 
@@ -16,4 +19,4 @@ Fique à vontade para explorar meus repositórios, fazer perguntas ou mesmo suge
 Vamos aprender, colaborar e compartilhar os aprendizados sobre OSINT juntos? 🌐🧐
 
 
-## Contato
+# Contato
