@@ -1,11 +1,4 @@
-#  🧠 Bem-vindo ao meu mundo de OSINT no GitHub By Ridd1kulusC0d3r 🔍
-
-
-<div align="center">
-
-![Nome da imagem caso ela não carregue](Copie aqui o link da sua imagem](https://github.com/Ridd1kulusC0d3r/Config_profile/assets/142614578/3296237a-1776-42c3-9507-69d787287c73)
-
-</div>
+#  🧠 Bem-vindo ao meu guia de estudos para OSINT no GitHub By Ridd1kulusC0d3r 🔍
 
 
 # Sumário
