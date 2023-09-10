@@ -38,6 +38,8 @@ Exemplos de Dorks para buscas do google:
 # Opsec 
 - Whonix
 - Tails
+- CSI Linux
+- Caine Linux (Forense)
 - VPS
 - VPN
   
