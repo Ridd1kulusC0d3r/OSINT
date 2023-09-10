@@ -6,7 +6,7 @@
 * [Contato](#contato)
 * [Dorks](#dorks)
 * [Opsec](#opsec)
-* [Recursos OSINT](#recursos)
+* [Recursos](#recursos)
 # Introdução 
 
 Oi, eu sou o Ridd1kulusC0d3r, e estou apaixonado pelo incrível universo da Inteligência de Fontes Abertas (~~Também conhecido como~~ __OSINT__) e tudo o que podemos explorar! Sou um profissional de segurança cibernética e um entusiasta em investigação digital e CTI, venho neste repositório compartilhar mesmo que seja um pouquinho do que tenho aprendido sobre OSINT
