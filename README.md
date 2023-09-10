@@ -33,4 +33,9 @@ Exemplos de Dorks para buscas do google:
 - https://cvmaker.com | CV Maker 
 - https://indeed.com | Indeed
 
+# Opsec 
+- Whonix
+- Tails
+- VPS
+- VPN
 # Contato
