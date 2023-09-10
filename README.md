@@ -15,5 +15,22 @@ Fique à vontade para explorar meus repositórios, fazer perguntas ou mesmo suge
 
 Vamos aprender, colaborar e compartilhar os aprendizados sobre OSINT juntos? 🌐🧐
 
+# Dorks
+Exemplos de Dorks para buscas do google: 
+“Deivison” “resume” filetype:doc OR filetype:docx OR filetype:pdf
+“Deivison” “Resume”
+“Deivison” “Curriculum Vitae”
+“Deivison” “CV”
+“Deivison” “Resume” filetype:doc
+“Deivison” “Curriculum Vitae” filetype:doc
+“Deivison” “CV” filetype:doc
+“Deivison” “Resume” filetype:pdf
+“Deivison” “Curriculum Vitae” filetype:pdf
+“Deivison” “CV” filetype:pdf
+“Deivison” “Resume” site:docs.google.com
+“Deivison” “Curriculum Vitae” site:docs.google.com
+“Deivison” “CV” site:docs.google.com 
+https://cvmaker.com | CV Maker 
+https://indeed.com | Indeed
 
 # Contato
