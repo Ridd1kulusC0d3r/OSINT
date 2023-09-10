@@ -46,84 +46,84 @@ Exemplos de Dorks para buscas do google:
 - 》OSINT Framework  – Coleção de várias ferramentas de hacking OSINT divididas por categoria.
 http://osintframework.com/
 ➖➖➖➖➖➖➖➖➖➖➖
-》Técnicas da Intel  – coleção de ferramentas OSINT. O menu à esquerda pode ser usado para navegar pelas categorias.
+- 》Técnicas da Intel  – coleção de ferramentas OSINT. O menu à esquerda pode ser usado para navegar pelas categorias.
 https://inteltechniques.com/menu.html
 ➖➖➖➖➖➖➖➖➖➖➖
-》NetBootcamp OSINT Tools  – Coleção de links OSINT e interfaces personalizadas da Web para outros serviços, como o  Facebook Graph Search  e  vários sites de colagem .
+- 》NetBootcamp OSINT Tools  – Coleção de links OSINT e interfaces personalizadas da Web para outros serviços, como o  Facebook Graph Search  e  vários sites de colagem .
 http://netbootcamp.org/osinttools/
 ➖➖➖➖➖➖➖➖➖➖➖
-》WiGLE.net  – Informações sobre redes sem fio em todo o mundo, com aplicativos de desktop e web fáceis de usar.
+- 》WiGLE.net  – Informações sobre redes sem fio em todo o mundo, com aplicativos de desktop e web fáceis de usar.
 https://wigle.net/
 ➖➖➖➖➖➖➖➖➖➖➖
 
-Ferramentas OSINT
+- - Ferramentas OSINT
 ➖➖➖➖➖➖➖➖➖➖➖
-》Maltego – Um dos ferramentas de hackers e software proprietário para inteligência de código aberto e forense, da Paterva.
+- 》Maltego – Um dos ferramentas de hackers e software proprietário para inteligência de código aberto e forense, da Paterva.
 http://www.paterva.com/web7/
 ➖➖➖➖➖➖➖➖➖➖➖
-》theHarvester  – Coletor de e-mail, subdomínio e nomes de pessoas.
+- 》theHarvester  – Coletor de e-mail, subdomínio e nomes de pessoas.
 https://github.com/laramies/theHarvester
 ➖➖➖➖➖➖➖➖➖➖➖
-》Creepy  – ferramenta OSINT de geolocalização.
+- 》Creepy  – ferramenta OSINT de geolocalização.
 https://github.com/ilektrojohn/creepy
 ➖➖➖➖➖➖➖➖➖➖➖
-》metagoofil  – Colheitadeira de metadados.
+- 》metagoofil  – Colheitadeira de metadados.
 https://github.com/laramies/metagoofil
 ➖➖➖➖➖➖➖➖➖➖➖
-》Google Hacking Database  – Banco de dados de Google dorks; pode ser usado para reconhecimento.
+- 》Google Hacking Database  – Banco de dados de Google dorks; pode ser usado para reconhecimento.
 https://www.exploit-db.com/google-hacking-database/
 ➖➖➖➖➖➖➖➖➖➖➖
-》GooDork  – Linha de comando da ferramenta de dorking do Google.
+- 》GooDork  – Linha de comando da ferramenta de dorking do Google.
 https://github.com/k3170makan/GooDork
 ➖➖➖➖➖➖➖➖➖➖➖
-》dork-cli  – Linha de comando da ferramenta dork do Google.
+- 》dork-cli  – Linha de comando da ferramenta dork do Google.
 https://github.com/jgor/dork-cli
 ➖➖➖➖➖➖➖➖➖➖➖
-》Censys  – Coleta dados sobre hosts e sites por meio de verificações diárias do ZMap e ZGrab.
+- 》Censys  – Coleta dados sobre hosts e sites por meio de verificações diárias do ZMap e ZGrab.
 https://www.censys.io/
 ➖➖➖➖➖➖➖➖➖➖➖
-》Shodan  – o primeiro mecanismo de pesquisa do mundo para dispositivos conectados à Internet.
+- 》Shodan  – o primeiro mecanismo de pesquisa do mundo para dispositivos conectados à Internet.
 https://www.shodan.io/
 ➖➖➖➖➖➖➖➖➖➖➖
-》recon-ng – Um dos frameworks de Reconhecimento da Web com ferramentas completas para hackers, escrito em Python.
+- 》recon-ng – Um dos frameworks de Reconhecimento da Web com ferramentas completas para hackers, escrito em Python.
 https://bitbucket.org/LaNMaSteR53/recon-ng
 ➖➖➖➖➖➖➖➖➖➖➖
-》github-dorks  – ferramenta CLI para verificar repositórios / organizações do Github quanto a possíveis vazamentos de informações confidenciais.
+- 》github-dorks  – ferramenta CLI para verificar repositórios / organizações do Github quanto a possíveis vazamentos de informações confidenciais.
 https://github.com/techgaun/github-dorks
 ➖➖➖➖➖➖➖➖➖➖➖
-》vcsmap  – Ferramenta baseada em plug-in para varrer os sistemas públicos de controle de versão em busca de informações confidenciais.
+- 》vcsmap  – Ferramenta baseada em plug-in para varrer os sistemas públicos de controle de versão em busca de informações confidenciais.
 https://github.com/melvinsh/vcsmap
 ➖➖➖➖➖➖➖➖➖➖➖
-》Spiderfoot  – ferramenta de automação OSINT de várias fontes com uma interface da web e relatórios de visualizações
+- 》Spiderfoot  – ferramenta de automação OSINT de várias fontes com uma interface da web e relatórios de visualizações
 http://www.spiderfoot.net/
 ➖➖➖➖➖➖➖➖➖➖➖
-》BinGoo  – Bing e Bing Dorking Tool baseados em basquete do GNU / Linux.
+- 》BinGoo  – Bing e Bing Dorking Tool baseados em basquete do GNU / Linux.
 https://github.com/Hood3dRob1n/BinGoo
 ➖➖➖➖➖➖➖➖➖➖➖
-Fast Recon  – Execute idas do Google em um domínio.
+- Fast Recon  – Execute idas do Google em um domínio.
 https://github.com/DanMcInerney/fast-recon
 ➖➖➖➖➖➖➖➖➖➖➖
-》snitch  – Coleta de informações via idiotas.
+- 》snitch  – Coleta de informações via idiotas.
 https://github.com/Smaash/snitch
 ➖➖➖➖➖➖➖➖➖➖➖
-》Sn1per – ons das ferramentas de hackers para o scanner Pentest Recon automatizado.
+- 》Sn1per – ons das ferramentas de hackers para o scanner Pentest Recon automatizado.
 https://github.com/1N3/Sn1per
 ➖➖➖➖➖➖➖➖➖➖➖
-Threat Crowd  – Motor de busca de ameaças.
+- Threat Crowd  – Motor de busca de ameaças.
 https://www.threatcrowd.org/
 ➖➖➖➖➖➖➖➖➖➖➖
-》Virus Total  – O VirusTotal é um serviço gratuito que analisa arquivos e URLs suspeitos e facilita a detecção rápida de vírus, worms, cavalos de Troia e todos os tipos de malware.
+- 》Virus Total  – O VirusTotal é um serviço gratuito que analisa arquivos e URLs suspeitos e facilita a detecção rápida de vírus, worms, cavalos de Troia e todos os tipos de malware.
 https://www.virustotal.com/
 ➖➖➖➖➖➖➖➖➖➖➖
-》DataSploit  – visualizador OSINT utilizando Shodan, Censys, Clearbit, EmailHunter, FullContact e Zoomeye nos bastidores.
+- 》DataSploit  – visualizador OSINT utilizando Shodan, Censys, Clearbit, EmailHunter, FullContact e Zoomeye nos bastidores.
 https://github.com/upgoingstar/datasploit
 ➖➖➖➖➖➖➖➖➖➖➖
-》AQUATONE  – Ferramenta de descoberta de subdomínio, utilizando várias fontes abertas, produzindo um relatório que pode ser usado como entrada para outras ferramentas.
+- 》AQUATONE  – Ferramenta de descoberta de subdomínio, utilizando várias fontes abertas, produzindo um relatório que pode ser usado como entrada para outras ferramentas.
 https://github.com/michenriksen/aquatone
 ➖➖➖➖➖➖➖➖➖➖➖
-》Intrigue  – Estrutura automatizada de descoberta de OSINT e Attack Surface com API, UI e CLI poderosas.
+- 》Intrigue  – Estrutura automatizada de descoberta de OSINT e Attack Surface com API, UI e CLI poderosas.
 http://intrigue.io/
 ➖➖➖➖➖➖➖➖➖➖➖
-》ZoomEye  – Motor de busca do ciberespaço que permite ao usuário encontrar componentes de rede específicos.
+- 》ZoomEye  – Motor de busca do ciberespaço que permite ao usuário encontrar componentes de rede específicos.
 https://www.zoomeye.org/
 # Contato
