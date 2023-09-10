@@ -6,7 +6,7 @@
 * [Contato](#contato)
 * [Dorks](#dorks)
 * [Opsec](#opsec)
-* [Recursos OSINT](#recursos OSINT)
+* [Recursos OSINT](#recursos osint)
 # Introdução 
 
 Oi, eu sou o Ridd1kulusC0d3r, e estou apaixonado pelo incrível universo da Inteligência de Fontes Abertas (~~Também conhecido como~~ __OSINT__) e tudo o que podemos explorar! Sou um profissional de segurança cibernética e um entusiasta em investigação digital e CTI, venho neste repositório compartilhar mesmo que seja um pouquinho do que tenho aprendido sobre OSINT
@@ -43,7 +43,7 @@ Exemplos de Dorks para buscas do google:
   
 # Recursos OSINT
 ➖➖➖➖➖➖➖➖➖➖➖
-》OSINT Framework  – Coleção de várias ferramentas de hacking OSINT divididas por categoria.
+- 》OSINT Framework  – Coleção de várias ferramentas de hacking OSINT divididas por categoria.
 http://osintframework.com/
 ➖➖➖➖➖➖➖➖➖➖➖
 》Técnicas da Intel  – coleção de ferramentas OSINT. O menu à esquerda pode ser usado para navegar pelas categorias.
