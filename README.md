@@ -2,7 +2,7 @@
 
 # Sumário
 * [Introdução](#introdução)
-* [Fases da Osint](#fasesdaosint)
+* [Fases da Osint](#fasesdaosint) ####
 * [Contato](#contato)
 * [Dorks](#dorks)
 * [Opsec](#opsec)
@@ -17,6 +17,81 @@ Fique à vontade para explorar meus repositórios, fazer perguntas ou mesmo suge
 
 Vamos aprender, colaborar e compartilhar os aprendizados sobre OSINT juntos? 🌐🧐
 # Fases da Osint
+# Fases da Osint
+
+## 1. Identificação das Necessidades de Informação
+
+### 1.1. Definição da Meta
+
+### 1.2. Identificação de Informações Relevantes
+
+### 1.3. Formulação de Problemas de Inteligência
+
+## 2. Coleta de Informação
+
+### 2.1. Fontes Abertas
+
+- 2.1.1. Internet
+
+- 2.1.2. Bibliotecas
+
+- 2.1.3. Registros Públicos
+
+### 2.2. Fontes Humanas
+
+- 2.2.1. Entrevistas
+
+- 2.2.2. Pesquisas
+
+- 2.2.3. Observação
+
+### 2.3. Fontes Técnicas
+
+- 2.3.1. Imagens de Satélite
+
+- 2.3.2. Comunicações de Interceptação
+
+## 3. Processamento de Informação
+
+### 3.1. Organização dos Dados
+
+- 3.1.1. Criação de uma Base de Dados
+
+- 3.1.2. Classificação da Informação
+
+### 3.2. Análise de Informações
+
+- 3.2.1. Análise de Conteúdo
+
+- 3.2.2. Análise de Contexto
+
+- 3.2.3. Análise de Conexão
+
+## 4. Análise e Interpretação
+
+### 4.1. Identificação de Padrões
+
+### 4.2. Elaboração de Hipóteses
+
+### 4.3. Validação de Informações
+
+## 5. Difusão e Feedback
+
+### 5.1. Relatórios de Inteligência
+
+### 5.2. Apresentações
+
+### 5.3. Briefings
+
+## 6. Avaliação e Revisão
+
+### 6.1. Avaliar Efetividade da Coleta
+
+### 6.2. Revisão da Metodologia
+
+### 6.3. Melhoria Contínua
+
+
 # Dorks
 Exemplos de Dorks para buscas do google: 
 - “Deivison” “resume” filetype:doc OR filetype:docx OR filetype:pdf
