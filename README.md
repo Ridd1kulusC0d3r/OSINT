@@ -2,6 +2,7 @@
 
 # Sumário
 * [Introdução](#introdução)
+* [Fases da Osint](#fases da osint)
 * [Contato](#contato)
 * [Dorks](#dorks)
 * [Opsec](#opsec)
@@ -15,7 +16,7 @@
 Fique à vontade para explorar meus repositórios, fazer perguntas ou mesmo sugerir colaborações. Acredito que, juntos, podemos ir mais longe e desenvolver as nossas habilidades em OSINT. Se você também é um entusiasta de OSINT ou está apenas começando seus estudos sobre busca de fontes abertas, junte-se a mim nesta jornada!
 
 Vamos aprender, colaborar e compartilhar os aprendizados sobre OSINT juntos? 🌐🧐
-
+# Fases da Osint
 # Dorks
 Exemplos de Dorks para buscas do google: 
 - “Deivison” “resume” filetype:doc OR filetype:docx OR filetype:pdf
