@@ -2,7 +2,7 @@
 
 # Sumário
 * [Introdução](#introdução)
-* [Fases da Osint](#fases da osint)
+* [Fases da Osint](#fasesdaosint)
 * [Contato](#contato)
 * [Dorks](#dorks)
 * [Opsec](#opsec)
