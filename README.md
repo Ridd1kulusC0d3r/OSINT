@@ -2,7 +2,7 @@
 
 # Sumário
 * [Introdução](#introdução)
-* [Fases da Osint](#fasesdaosint) ####
+* [Fases da Osint](#fases) ####
 * [Contato](#contato)
 * [Dorks](#dorks)
 * [Opsec](#opsec)
@@ -16,8 +16,9 @@
 Fique à vontade para explorar meus repositórios, fazer perguntas ou mesmo sugerir colaborações. Acredito que, juntos, podemos ir mais longe e desenvolver as nossas habilidades em OSINT. Se você também é um entusiasta de OSINT ou está apenas começando seus estudos sobre busca de fontes abertas, junte-se a mim nesta jornada!
 
 Vamos aprender, colaborar e compartilhar os aprendizados sobre OSINT juntos? 🌐🧐
+
 # Fases da Osint
-# Fases da Osint
+![Fases da Osint](https://github.com/Ridd1kulusC0d3r/OSINT/assets/142614578/ce34411c-f9fe-426b-89ec-9b6071d35b6c)
 
 ## 1. Identificação das Necessidades de Informação
 
