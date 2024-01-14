@@ -20,6 +20,34 @@ Vamos aprender, colaborar e compartilhar os aprendizados sobre OSINT juntos? �
 # Fases da Osint
 ![Fases da Osint](https://github.com/Ridd1kulusC0d3r/OSINT/assets/142614578/ce34411c-f9fe-426b-89ec-9b6071d35b6c)
 
+
+
+Aplicação:
+	Conhecer reputação online de um usuário ou empresa
+	Estudos sociológicos
+	Auditorias como DueDiligence
+	Tendencias de mercado
+	Prevenção de possíveis ameaças no campo militar
+	Phishing
+
+Processo de #Osint 
+	Requisitos da investigação: Precisam ser detalhados;
+	Fontes de informação: Precisam ser de acordo com os requisitos
+	Aquisição e coleta: Prints da tela, url perfil, id do perfil, e fazer o dossîe
+	Processamento: Formatar toda a informação coletada 
+	Analise: Eliminar duplicidade, avaliar falso positivo, relacionar informações de diferentes fontes para chegar a uma conclusão
+	Inteligência: Apresentar as informações, avaliar resultados, evidências,  
+
+Opsec #opsec #vpn #tor #brave #firefox #keepass #lastpass #VM
+	Ambiente seguro
+	VPN: ksc VG, Nord, SurfShark
+	Navegadores Seguros: Yandex, TOR, Brave, Firefox, DuckDuckGO,
+	Gerenciadores de Senha
+	Máquina Virtual
+	Sites registram sua localização a partir de rastreadores de localização geográfica, para sugerir banners e campanhas de mkt
+	
+
+
 ## 1. Identificação das Necessidades de Informação
 
 ### 1.1. Definição da Meta
