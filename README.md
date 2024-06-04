@@ -1,4 +1,4 @@
-#  🧠 Bem-vindo ao meu guia de estudos para OSINT no GitHub By Ridd1kulusC0d3r 🔍
+#  🧠 Bem-vindo ao meu guia de estudos para OSINT no GitHub By Ridd1kulusC0d3r 🔍 
 # Sumário
 * [Introdução](#introdução)
 * [Fases da Osint](#fases) ####
