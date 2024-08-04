@@ -16,6 +16,11 @@ Fique à vontade para explorar meus repositórios, fazer perguntas ou mesmo suge
 
 Vamos aprender, colaborar e compartilhar os aprendizados sobre OSINT juntos? 🌐🧐
 
+
+# O que é OSINT?
+# Por onde começar a estudar?
+# Tipos de inteligências:
+# 
 # Fases da Osint
 ![Fases da Osint](https://github.com/Ridd1kulusC0d3r/OSINT/assets/142614578/ce34411c-f9fe-426b-89ec-9b6071d35b6c)
 
