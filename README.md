@@ -23,6 +23,15 @@ Como diz os professores @Emerson e @ Alessandro, sõ tem como aprender praticand
 
 # Por onde começar a estudar?
 # Tipos de inteligências:
+# Filmes e Séries
+- Documentário: Nada para esconder | Don't F**k with Cats: Uma Caçada Online |
+- FIlme: Dilema das redes sociais | 
+- Série: BlackMirror | 
+# Perfis
+# Sites
+# Ferramentas
+# Feeds Listas eletronicas
+
 # Livros
 ## Free
 ## Pagos
@@ -31,12 +40,6 @@ Como diz os professores @Emerson e @ Alessandro, sõ tem como aprender praticand
 - Todo mundo mente: O que a internet e os dados dizem sobre quem realmente somos - Seth Stephens: https://www.amazon.com.br/Todo-mundo-mente-Seth-Stephens-Davidowitz/dp/8550802174/ref=asc_df_8550802174/?tag=googleshopp00-20&linkCode=df0&hvadid=379751563849&hvpos=&hvnetw=g&hvrand=4615433840417970326&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001541&hvtargid=pla-748234708018&psc=1
 
 - A era do capitalismo de vigilância: https://www.amazon.com.br/Era-do-Capitalismo-Vigil%C3%A2ncia-ebook/dp/B08T9Y6W5H/ref=sr_1_2?adgrpid=103764841420&hvadid=443092840288&hvdev=c&hvlocphy=1001541&hvnetw=g&hvqmt=e&hvrand=17073517800481597602&hvtargid=kwd-1098975352272&hydadcr=5656_11235223&keywords=capitalismo+de+vigilancia&qid=1689154908&sr=8-2
-# Filmes e Séries
-# Perfis
-# Sites
-# Ferramentas
-# Feeds Listas eletronicas
-
 
 # Fases da Osint
 ![Fases da Osint](https://github.com/Ridd1kulusC0d3r/OSINT/assets/142614578/ce34411c-f9fe-426b-89ec-9b6071d35b6c)
