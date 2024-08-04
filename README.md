@@ -18,9 +18,19 @@ Vamos aprender, colaborar e compartilhar os aprendizados sobre OSINT juntos? �
 
 
 # O que é OSINT?
+# Como aprender OSINT?
+Como diz os professores @emerson
+https://www.linkedin.com/in/delbarreto19/?originalSubdomain=br
 # Por onde começar a estudar?
 # Tipos de inteligências:
-# 
+# Livros
+# Filmes e Séries
+# Perfis
+# Sites
+# Ferramentas
+# Feeds Listas eletronicas
+
+
 # Fases da Osint
 ![Fases da Osint](https://github.com/Ridd1kulusC0d3r/OSINT/assets/142614578/ce34411c-f9fe-426b-89ec-9b6071d35b6c)
 
