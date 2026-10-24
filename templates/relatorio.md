@@ -1,28 +1,50 @@
-# Relatório de análise
+# Relatório analítico OSINT · Modelo
 
-- Caso:
-- Autor:
-- Data e fuso:
-- Pergunta:
+**Caso:** [ ]  
+**Questão investigativa:** [ ]  
+**Autor / equipe:** [ ]  
+**Data, fuso e versão:** [ ]  
+**Destinatários e limites de circulação:** [ ]
 
-## Resposta resumida
+## Sumário executivo
 
-A preencher, com referência aos IDs de evidências.
+**Resposta à pergunta:** [afirmação breve, ou "indeterminado"].  
+**Estado da avaliação:** sustentada / parcialmente sustentada / não sustentada / indeterminada.  
+**Principal ressalva:** [ ].
 
-## Evidências e raciocínio
+## Escopo e método
 
-| Conclusão | Evidências | Limitações |
-|---|---|---|
-| A preencher | | |
+Explique o recorte, as fontes legítimas consultadas, a janela temporal e a condição de parada. Informe o que não foi examinado.
 
-## Hipóteses alternativas
+## Resultados com proveniência
 
-A preencher.
+| Afirmação | Evidências vinculadas | Grau de sustentação e razão | Ressalvas |
+|---|---|---|---|
+| [ ] | E001, E002 | [ ] | [ ] |
 
-## Lacunas e recomendações
+## Hipóteses alternativas e contraevidências
 
-A preencher. Diferencie recomendação de ação já executada.
+[Explique no mínimo uma alternativa plausível e os sinais contrários encontrados.]
 
-## Fontes
+## Limitações e lacunas
 
-Relacionar IDs ao registro de evidências.
+[Descreva acesso indisponível, dependência entre fontes, ambiguidade de datas e outras incertezas.]
+
+## Recomendações e próximos passos
+
+| Ação recomendada | Para resolver qual lacuna? | Prioridade | Responsável proposto |
+|---|---|---|---|
+| [ ] | [ ] | [ ] | [ ] |
+
+## Fontes e rastreabilidade
+
+Relacione todos os IDs ao [registro de evidências](evidencias.md), observando origem, URL, data e limitações.
+
+## Revisão editorial
+
+- Revisor:
+- Data:
+- Correções feitas:
+- Evidência que mudaria a conclusão:
+
+**Não confunda recomendação com medida executada ou inferência com observação.**

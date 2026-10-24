@@ -1,13 +1,32 @@
-# Registro de evidências
+# Registro de evidências · Modelo
 
-| ID | Fonte/URL | Publicação | Consulta e fuso | Observação | Limitações |
-|---|---|---|---|---|---|
-| E001 | A preencher | | | | |
+- **Caso:**
+- **Responsável:**
+- **Data e fuso da análise:**
+- **Classificação de divulgação:** público / interno / restrito (conforme política aplicável)
 
-## Interpretações separadas
+| ID | Origem / URL | Tipo de fonte | Data do conteúdo | Data da consulta e fuso | Observação verificável | Limitações |
+|---|---|---|---|---|---|---|
+| E001 | [ ] | Primária / derivada / desconhecida | [ ] | [ ] | [ ] | [ ] |
 
-| Afirmação | IDs de suporte | Evidência contrária | Explicação alternativa |
+## Cadeia de dependência
+
+| Evidência | Deriva de outra? | Qual? | Como foi identificado? |
 |---|---|---|---|
-| A preencher | | | |
+| E001 | Não determinado | [ ] | [ ] |
 
-Se preservar arquivo, registre nome, formato e hash. Ausência de resposta, bloqueio e ausência de conteúdo são resultados diferentes.
+## Integridade e transformações
+
+| ID | Arquivo preservado (se autorizado) | Hash / algoritmo (se necessário) | Transformação realizada |
+|---|---|---|---|
+| E001 | [ ] | [ ] | [ ] |
+
+Um hash pode indicar alteração de arquivo, **não prova autenticidade da fonte ou veracidade de uma alegação**. Preserve somente o necessário e nunca compartilhe dados pessoais ou credenciais.
+
+## Inferências separadas de observações
+
+| Alegação ou hipótese | Evidências de suporte | Evidência contrária | Explicação alternativa | Situação |
+|---|---|---|---|---|
+| [ ] | E001 | [ ] | [ ] | Indeterminada |
+
+**Atenção:** ausência de acesso, ausência de registro e inexistência do fato são situações diferentes.

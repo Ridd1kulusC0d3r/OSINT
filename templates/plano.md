@@ -1,20 +1,35 @@
-# Plano de investigação
+# Plano de investigação OSINT
 
-- Identificador:
-- Pergunta:
-- Decisão apoiada:
-- Período:
-- Fontes permitidas:
-- Exclusões:
-- Prazo:
-- Critério de encerramento:
+- **Identificador:**
+- **Analista / equipe:**
+- **Data de criação e fuso:**
+- **Pergunta específica:**
+- **Decisão que o resultado deve apoiar:**
+- **Público da entrega:**
+- **Recorte temporal:**
+- **Fontes públicas ou autorizadas:**
+- **Fontes e métodos excluídos:**
+- **Riscos de privacidade, erro ou divulgação:**
+- **Medidas de minimização:**
+- **Prazo e critério de encerramento:**
 
-| Hipótese | O que a sustentaria | O que a enfraqueceria | Fonte necessária |
-|---|---|---|---|
-| A preencher | | | |
+## Perguntas derivadas
 
-## Lacunas e próximos passos
+| ID | Pergunta / requisito | Fonte adequada | Limitação provável | Estado |
+|---|---|---|---|---|
+| R01 | [ ] | [ ] | [ ] | Aberto |
 
-| Lacuna | Coleta proposta | Responsável | Prazo |
-|---|---|---|---|
-| A preencher | | | |
+## Hipóteses preliminares
+
+| Hipótese | O que a sustentaria | O que a enfraqueceria |
+|---|---|---|
+| H1 | [ ] | [ ] |
+| H2 | [ ] | [ ] |
+
+## Lacunas, responsabilidades e revisão
+
+| Lacuna | Próximo passo legítimo | Responsável | Prazo | Motivo para encerrar |
+|---|---|---|---|---|
+| [ ] | [ ] | [ ] | [ ] | [ ] |
+
+Leia o [método](../docs/metodo.md) e registre resultados no [modelo de evidências](evidencias.md).

@@ -1,27 +1,39 @@
-# Catálogo de recursos
+# Recursos · Curadoria por finalidade
 
-[Início](../README.md)
+[← Início](../README.md) · [Mapa de estudos](../docs/indice.md) · [Acervo histórico](../docs/acervo.md)
 
-## Critérios de entrada
+Esta seção substitui a lógica de lista infinita por **seleção editorial**. Pergunta primeiro, ferramenta depois.
 
-Cada recurso deve informar nome, URL oficial, pergunta que ajuda a responder, idioma, acesso/custo quando confirmado, limitações e data de revisão.
-
-| Recurso | Finalidade | Situação |
+| O que preciso fazer? | Comece aqui | Por quê |
 |---|---|---|
-| [Acervo histórico](../docs/acervo.md) | Consultar materiais já reunidos | Revisão pendente |
-| [Laboratório de evidências](../labs/01-evidencias/README.md) | Praticar avaliação sem depender de serviços externos | Exercício sintético disponível |
+| Consultar fontes primárias e guias | [Fontes e referências](fontes-e-referencias.md) | Identificar origem, escopo e contexto |
+| Selecionar ferramentas por tipo | [Ferramentas](ferramentas.md) | Comparar funções e limitações |
+| Aprender verificação | [Guia prático](../docs/verificacao.md) | Testar hipóteses, não colecionar resultados |
+| Pesquisar dados brasileiros | [Instituições públicas](fontes-e-referencias.md#dados-públicos-brasileiros) | Dar preferência à origem institucional |
+| Ver material antigo | [Acervo](../docs/acervo.md) | Evitar tratar legado como recomendação |
 
-## Modelo de cadastro
+## Política de inclusão
 
-- Nome:
-- URL oficial:
-- Categoria:
-- O que ajuda a responder:
-- Entrada e saída:
-- Idioma:
-- Acesso e custo: não verificado / confirmado em data
-- Limitações:
-- Última revisão:
-- Responsável pela revisão:
+Uma referência deve indicar: **nome, URL oficial, finalidade, tipo de dado, limites, risco de falso positivo e data da revisão**. Preço, quotas de API e atividade de manutenção podem mudar; não serão inventados.
 
-Não apresentar um link como testado apenas porque a página abriu.
+| Situação | O que significa |
+|---|---|
+| **Referência confirmada** | Origem/descrição publicamente verificáveis nesta revisão |
+| **Não testada operacionalmente** | Não há garantia de funcionalidade, precisão ou segurança |
+| **Histórico** | Preservado, sem validação editorial atual |
+| **Em avaliação** | Falta examinar escopo, legitimidade, manutenção ou direitos |
+
+### Modelo de proposta de inclusão
+
+```text
+Nome e link:
+Problema que resolve:
+Entrada / tipo de saída:
+Fonte original e mantenedor:
+Como verificar um resultado:
+Riscos, limitações e falsos positivos:
+Acesso, restrições e requisitos (somente se confirmado):
+Data de revisão:
+```
+
+**Importante:** serviços de busca ou visualização podem tratar dados de terceiros. Não envie dados pessoais nem arquivos confidenciais a ferramentas externas sem base legítima e autorização.

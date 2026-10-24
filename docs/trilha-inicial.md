@@ -1,24 +1,22 @@
-# Trilha inicial
+# Trilha inicial · Sua primeira investigação reproduzível
 
-[Início](../README.md)
+[← Início](../README.md) · [Mapa completo](indice.md)
 
-Faça uma missão por vez. Os tempos são sugestões, não critérios de desempenho.
+Você não precisa instalar ferramentas nem consultar perfis de pessoas. Use os materiais fictícios dos laboratórios.
 
-| Missão | Tempo | Ação | Entrega |
-|---|---|---|---|
-| 1. Pergunta | 10 min | Leia o método e delimite uma pergunta | Uma pergunta respondível |
-| 2. Escopo | 10 min | Defina fontes permitidas, prazo e exclusões | Plano preenchido |
-| 3. Evidência | 15 min | Execute o laboratório 01 | Tabela de observações |
-| 4. Hipóteses | 10 min | Liste duas explicações para o mesmo sinal | Hipóteses e limitações |
-| 5. Comunicação | 15 min | Escreva um relatório de uma página | Conclusão com evidências |
-| 6. Revisão | 10 min | Outra pessoa tenta reproduzir sua análise | Correções registradas |
+| Missão | Atividade | Resultado |
+|---|---|---|
+| 01 · Perguntar | Leia [o método](metodo.md) e formule uma pergunta verificável | Enunciado com período e critério de parada |
+| 02 · Planejar | Preencha o [plano](../templates/plano.md) e identifique limites éticos | Escopo e fontes definidas |
+| 03 · Observar | Faça o [Lab 01](../labs/01-evidencias/README.md) | Tabela distinguindo observação de inferência |
+| 04 · Correlacionar | Faça o [Lab 02](../labs/02-triangulacao/README.md) | Cadeia de republicações e hipótese alternativa |
+| 05 · Contextualizar | Faça o [Lab 03](../labs/03-verificacao-temporal/README.md) | Linha do tempo sem ambiguidades de fuso |
+| 06 · Comunicar | Complete o [relatório](../templates/relatorio.md) | Conclusão com IDs, ressalvas e revisão |
 
-Use os [modelos](../templates/README.md) e o [laboratório](../labs/01-evidencias/README.md).
+Os tempos são flexíveis. A progressão é por **qualidade da análise**, não por velocidade nem por quantidade de ferramentas.
 
-## Quando avançar
+## Pronto para avançar?
 
-Você consegue distinguir observação de interpretação, localizar a origem de cada afirmação e dizer o que faltaria para mudar sua conclusão. Se não, revise a missão correspondente.
+Você sabe identificar uma fonte original; separar republicação de confirmação independente; registrar evento, publicação e consulta com seus fusos; apontar uma contraevidência; e escrever uma conclusão que outra pessoa consegue revisar.
 
-## Próximas trilhas planejadas
-
-Pesquisa documental brasileira; verificação de imagens; Python para normalização; análise temporal; avaliação de fontes. Ainda não são cursos completos disponíveis.
+A partir daqui, escolha um tema no [mapa de estudos](indice.md) e consulte as [fontes comentadas](../recursos/fontes-e-referencias.md).
