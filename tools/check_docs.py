@@ -14,7 +14,7 @@ DOCS = [ROOT / "README.md", ROOT / "CONTRIBUTING.md", ROOT / "ROADMAP.md"]
 for area in DOC_AREAS:
     DOCS.extend((ROOT / area).rglob("*.md"))
 
-MARKDOWN_LINK = re.compile(r"!?(?:\\[[^\\]]*\\])\\(([^)]+)\\)")
+MARKDOWN_LINK = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 HTML_ASSET = re.compile(r'(?:src|href)="([^"]+)"')
 
 
@@ -37,6 +37,9 @@ def check_path(source: Path, target: str) -> str | None:
 
 
 def main() -> int:
+    if not MARKDOWN_LINK.search("[Example](README.md)"):
+        print("ERROR: Markdown link parser failed self-check", file=sys.stderr)
+        return 1
     errors: list[str] = []
     for source in DOCS:
         if not source.is_file():
