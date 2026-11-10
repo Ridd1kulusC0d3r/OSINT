@@ -1,39 +1,32 @@
-# Recursos · Curadoria por finalidade
+# Biblioteca de recursos e referências
 
-[← Início](../README.md) · [Mapa de estudos](../docs/indice.md) · [Acervo histórico](../docs/acervo.md)
+[← Início](../README.md) · [Leituras essenciais](leituras-essenciais.md) · [Ferramentas](ferramentas.md)
 
-Esta seção substitui a lógica de lista infinita por **seleção editorial**. Pergunta primeiro, ferramenta depois.
+A curadoria é organizada por **pergunta investigativa**, não por popularidade de ferramentas.
 
-| O que preciso fazer? | Comece aqui | Por quê |
-|---|---|---|
-| Consultar fontes primárias e guias | [Fontes e referências](fontes-e-referencias.md) | Identificar origem, escopo e contexto |
-| Selecionar ferramentas por tipo | [Ferramentas](ferramentas.md) | Comparar funções e limitações |
-| Aprender verificação | [Guia prático](../docs/verificacao.md) | Testar hipóteses, não colecionar resultados |
-| Pesquisar dados brasileiros | [Instituições públicas](fontes-e-referencias.md#dados-públicos-brasileiros) | Dar preferência à origem institucional |
-| Ver material antigo | [Acervo](../docs/acervo.md) | Evitar tratar legado como recomendação |
-
-## Política de inclusão
-
-Uma referência deve indicar: **nome, URL oficial, finalidade, tipo de dado, limites, risco de falso positivo e data da revisão**. Preço, quotas de API e atividade de manutenção podem mudar; não serão inventados.
-
-| Situação | O que significa |
+| Necessidade | Material |
 |---|---|
-| **Referência confirmada** | Origem/descrição publicamente verificáveis nesta revisão |
-| **Não testada operacionalmente** | Não há garantia de funcionalidade, precisão ou segurança |
-| **Histórico** | Preservado, sem validação editorial atual |
-| **Em avaliação** | Falta examinar escopo, legitimidade, manutenção ou direitos |
+| Entender padrões de análise e investigação | [Leituras essenciais](leituras-essenciais.md) |
+| Identificar fontes institucionais e bibliografia | [Fontes comentadas](fontes-e-referencias.md) |
+| Escolher ferramentas conscientemente | [Comparação por finalidade](ferramentas.md) |
+| Pesquisar o índice de referências como dados | [Catálogo CSV](catalogo.csv) |
+| Explorar material preservado | [Acervo histórico, não validado](../docs/acervo.md) |
 
-### Modelo de proposta de inclusão
+## Como ler um recurso deste catálogo
 
-```text
-Nome e link:
-Problema que resolve:
-Entrada / tipo de saída:
-Fonte original e mantenedor:
-Como verificar um resultado:
-Riscos, limitações e falsos positivos:
-Acesso, restrições e requisitos (somente se confirmado):
-Data de revisão:
-```
+**Origem:** quem produz e mantém. **Finalidade:** que pergunta ajuda a responder. **Limitação:** o que não autoriza concluir. **Revisão:** quando o registro foi examinado editorialmente.
 
-**Importante:** serviços de busca ou visualização podem tratar dados de terceiros. Não envie dados pessoais nem arquivos confidenciais a ferramentas externas sem base legítima e autorização.
+O catálogo em CSV é **referencial**: não significa que foi feita auditoria de código, teste funcional ou revisão jurídica de todos os serviços externos. Mudanças em quotas, preços, interfaces e termos de uso precisam de verificação direta nas respectivas fontes oficiais.
+
+## Regras para novas entradas
+
+Uma proposta deve informar:
+
+- Nome, URL oficial e organização mantenedora.
+- Categoria e problema que ajuda a resolver.
+- Entrada/saída ou tipo de dado oferecido.
+- Qualidade e cobertura conhecidas; falsos positivos e riscos.
+- Restrições de acesso, privacidade, licença e data da revisão.
+- Método de validação de um resultado.
+
+Para contribuir, siga o [CONTRIBUTING](../CONTRIBUTING.md). Não inclua bases de vazamentos, credenciais ou dados pessoais no repositório.

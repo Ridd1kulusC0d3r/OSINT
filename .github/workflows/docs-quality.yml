@@ -1,9 +1,9 @@
 name: Documentation quality
 
 on:
-  push:
-    branches: [main]
   pull_request:
+    branches: [main]
+  push:
     branches: [main]
   workflow_dispatch:
 
@@ -11,10 +11,18 @@ permissions:
   contents: read
 
 jobs:
-  validate-documentation:
+  documentation:
+    name: Links, anchors, catalog and unit tests
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Check internal paths and SVG
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run unit tests
+        run: python3 -m unittest discover -s tools/tests -v
+      - name: Validate documentation
         run: python3 tools/check_docs.py

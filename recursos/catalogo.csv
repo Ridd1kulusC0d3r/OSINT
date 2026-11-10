@@ -1,0 +1,11 @@
+id,nome,categoria,url,origem,valor,limitacao,revisado_em,status
+berkeley-protocol,Berkeley Protocol,Metodologia,https://humanrights.berkeley.edu/publications/berkeley-protocol-on-digital-open-source-investigations/,UC Berkeley HRC e OHCHR,Princípios de investigação digital,Adaptação necessária a outros contextos,2026-11-09,referencia_documental
+icd203,ICD 203 / ODNI,Metodologia,https://www.intel.gov/mission/our-values/objectivity,ODNI,Padrões de rigor analítico,Não substitui política e método da organização,2026-11-09,referencia_documental
+bellingcat-toolkit,Bellingcat Toolkit,Curadoria,https://bellingcat.gitbook.io/toolkit,Bellingcat,Índice de ferramentas por caso de uso,Cada ferramenta requer avaliação própria,2026-11-09,referencia_documental
+wayback,Wayback Machine,Arquivos,https://web.archive.org/,Internet Archive,Capturas de páginas públicas,Lacunas de cobertura,2026-11-09,referencia_documental
+ibge,IBGE,Dados públicos,https://www.ibge.gov.br/,IBGE,Indicadores agregados brasileiros,Metodologia e recorte temporal importam,2026-11-09,referencia_documental
+inmet,INMET,Dados públicos,https://portal.inmet.gov.br/dadoshistoricos/,INMET,Séries históricas meteorológicas,Há lacunas e diferenças entre estações,2026-11-09,referencia_documental
+nist-incident,NIST SP 800-61 Rev 3,CTI,https://csrc.nist.gov/pubs/sp/800/61/r3/final,NIST,Gestão de risco e resposta a incidentes,Não confirma incidentes específicos,2026-11-09,referencia_documental
+mitre-attack,MITRE ATT&CK,CTI,https://attack.mitre.org/,MITRE,Vocabulário de comportamentos adversários,Mapeamento não comprova ocorrência,2026-11-09,referencia_documental
+mitre-d3fend,MITRE D3FEND,CTI,https://d3fend.mitre.org/,MITRE,Ontologia de contramedidas,Exige interpretação contextual,2026-11-09,referencia_documental
+gdelt,GDELT,Dados públicos,https://gdeltproject.org/data.html,GDELT Project,Base de eventos observados em notícias,Cobertura midiática não equivale a incidência de fatos,2026-11-09,referencia_documental
