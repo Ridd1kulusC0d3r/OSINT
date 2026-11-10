@@ -1,36 +1,44 @@
-# Contribuindo com o OSINT
+# Contribua com OSINT: qualidade antes de quantidade
 
-[← Início](README.md) · [Ética](docs/qualidade-e-etica.md) · [Catálogo](recursos/README.md)
+[← Início](README.md) · [Ética](docs/qualidade-e-etica.md) · [Laboratórios](labs/README.md)
 
-O objetivo é manter uma biblioteca **ensinável, rastreável e segura**, não maximizar o número de links.
+A biblioteca aceita documentação, correções de fontes, modelos e laboratórios sintéticos. Não envie dados pessoais, credenciais, dumps nem pesquisas invasivas sobre terceiros.
 
-## Como propor melhorias
+## Uma contribuição precisa responder
 
-1. Abra uma issue explicando o problema ou descreva a proposta em seu PR.
-2. Prefira mudanças pequenas e verificáveis, com exemplos sintéticos.
-3. Adicione links **relativos** para arquivos deste repositório.
-4. Inclua a fonte original e descreva o que ela ajuda a investigar.
-5. Explicite limites, falsos positivos e data da sua revisão.
-6. Para laboratórios, apresente cenário, evidências, missões, critérios e resolução recolhida em `<details>`.
-7. Se houver código, documente execução em ambiente próprio/autorizado, dependências e verificação; nunca anexe dados de terceiros.
+1. Qual pergunta o material ajuda a responder?
+2. Qual é a **origem primária** da informação?
+3. O que está **verificado**, apenas **referenciado** ou ainda **planejado**?
+4. Qual erro ou falso positivo pode ocorrer?
+5. Como outro analista reproduz o resultado?
+6. Há risco de privacidade, atribuição incorreta ou reutilização sem permissão?
 
-## Estrutura sugerida para PR
+## Padrão de laboratório
 
-**Problema:** [qual lacuna resolve?]  
-**Mudança:** [páginas/arquivos]  
-**Fonte e direitos de uso:** [links; atribuição]  
-**Como validou:** [checagens e limitações]  
-**Impactos de privacidade e segurança:** [avaliação]  
-**Itens ainda não verificados:** [lista objetiva]
+Obrigatório: contexto fictício, IDs de evidência, objetivo, missão, rubrica de avaliação e gabarito recolhido em `<details>`. Não use como alvo pessoas, empresas ou ativos reais sem autorização apropriada.
 
-## Checklist de revisão
+## Padrão de recurso
 
-- [ ] O conteúdo é original ou reutilizado sob direitos compatíveis.
-- [ ] As fontes e datas estão claras.
-- [ ] Há pelo menos uma limitação relevante.
-- [ ] Não há pessoas reais em exercícios nem dados pessoais desnecessários.
-- [ ] Links relativos e navegação funcionam.
-- [ ] Não atribui certeza a dados inconclusivos.
-- [ ] Material "planejado" não é anunciado como concluído.
+O arquivo [catálogo CSV](recursos/catalogo.csv) fornece um subconjunto estruturado de referências. Verifique `id`, `url`, `origem`, `valor`, `limitacao` e `revisado_em`. O status `referencia_documental` **não** implica testes operacionais.
 
-**Acervo histórico:** não remova ou promova material antigo indiscriminadamente. Registre a razão da migração, incluindo questões técnicas e éticas.
+## Qualidade automatizada
+
+Execute na raiz do clone:
+
+```bash
+python3 -m unittest discover -s tools/tests -v
+python3 tools/check_docs.py
+```
+
+Os testes verificam links locais, fragmentos de Markdown e integridade do catálogo. Não fazem chamadas a serviços externos.
+
+## Checklist do Pull Request
+
+- [ ] Arquivos com ligações relativas corretas.
+- [ ] Fonte original e limitações documentadas.
+- [ ] Exemplos sintéticos/legítimos.
+- [ ] Nenhum segredo ou dado pessoal desnecessário.
+- [ ] Nenhuma promessa de certeza sem evidência.
+- [ ] Testes locais passaram, ou a limitação foi explicada.
+
+O mantenedor deve decidir a licença do projeto antes de declarar permissões gerais de redistribuição.

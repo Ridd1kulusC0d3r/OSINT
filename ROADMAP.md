@@ -1,30 +1,33 @@
-# Roadmap · Evolução baseada em qualidade
+# Roadmap · OSINT como referência pública de método
 
-[← Início](README.md) · [Mapa de estudos](docs/indice.md)
+[← Início](README.md) · [Trilhas](docs/indice.md)
 
-## Disponível na proposta editorial atual
+Este roadmap separa o que **existe no repositório** do que ainda precisa de implementação ou revisão.
 
-- [x] README com identidade visual própria e navegação por objetivo.
-- [x] Método com etapas, hipóteses, proveniência e critério de encerramento.
-- [x] Ética, qualidade e limites de curadoria.
-- [x] Mapa de estudos e casos de uso defensivos.
-- [x] Fontes e ferramentas com descrição e limitações.
-- [x] Três laboratórios sintéticos com avaliação comentada.
-- [x] Plano, evidências, matriz de hipóteses e relatório.
-- [x] Verificação automática básica de caminhos locais e sintaxe XML do banner.
-- [x] Acervo histórico preservado, identificado como não revisado.
+## Entregue
 
-## Próximas etapas (não entregues)
+- [x] Identidade visual e README orientado a objetivos.
+- [x] Ciclo de investigação, política editorial e verificação básica.
+- [x] Guias de avaliação de fontes, análise estruturada e dados/proveniência.
+- [x] Guias de OSINT para CTI e verificação visual GEOINT/IMINT.
+- [x] Seis laboratórios sintéticos com missões e resoluções.
+- [x] Templates de plano, evidência, hipóteses e relatório.
+- [x] Referências oficiais e catálogo CSV legível por máquina.
+- [x] Validação local de documentação e testes em CI.
+- [x] Preservação explícita do acervo legado não revisado.
 
-- [ ] Revisar cada item do acervo antigo quanto a disponibilidade, utilidade, privacidade e direitos.
-- [ ] Criar casos com dados públicos **agregados** do Brasil e referências institucionais.
-- [ ] Adicionar módulo didático de GEOINT/IMINT com exemplos não sensíveis.
-- [ ] Criar notebook de normalização de dados totalmente sintéticos.
-- [ ] Construir validação editorial de links externos com revisão humana.
-- [ ] Avaliar GitHub Pages para navegação ampliada.
-- [ ] Definir e adicionar licença apropriada com decisão explícita do mantenedor.
-- [ ] Estabelecer revisão por pares e histórico de atualizações das fontes.
+## Em avaliação
 
-## Critério para marcar uma entrega
+- [ ] Revisão linha por linha de ferramentas e scripts históricos, com verificação de origem e direitos.
+- [ ] Módulo de dados abertos brasileiros com exemplos agregados verificáveis.
+- [ ] Notebook de limpeza, normalização e deduplicação de **dados sintéticos**.
+- [ ] Pequena documentação navegável no GitHub Pages, após confirmação da configuração.
+- [ ] Revisão humana trimestral das referências críticas.
+- [ ] Escolha explícita de licença apropriada pelo mantenedor.
+- [ ] Definição de descrição e tópicos do repositório nas configurações do GitHub.
+- [ ] Versão internacional resumida em inglês.
+- [ ] Rubricas de revisão por pares e changelog editorial.
 
-Arquivo existente, conteúdo revisado, caminho acessível, exemplo reproduzível quando cabível e limitações documentadas. **Planejamento não é implementação.**
+## Critério para declarar uma etapa pronta
+
+O material deve existir, ser navegável, passar nas validações locais, apresentar fontes e limites e permitir reprodução didática quando aplicável. **Quantidade de links, sozinha, não representa maturidade.**
