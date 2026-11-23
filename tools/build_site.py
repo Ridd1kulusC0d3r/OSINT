@@ -494,7 +494,7 @@ def build():
     plus = nav_fix(remap_js(patch_plus((A / 'hub_plus.js').read_text(encoding='utf-8'))))
     page = (tpl.replace('/*CSS*/', css).replace('<!--MODS-->', mods_html)
             .replace('/*JS*/', js + extras).replace('/*ENGINE*/', engine)
-            .replace('/*PLUS*/', (A / 'site_roteiros.js').read_text(encoding='utf-8') + '\n' + plus + '\n' + remap_js((A / 'guia.js').read_text(encoding='utf-8')) + '\n' + FIX_ANCHORS))
+            .replace('/*PLUS*/', (A / 'site_roteiros.js').read_text(encoding='utf-8') + '\n' + plus + '\n' + remap_js((A / 'guia.js').read_text(encoding='utf-8')) + '\n' + (A / 'guia_publico.js').read_text(encoding='utf-8') + '\n' + FIX_ANCHORS))
     OUT.mkdir(exist_ok=True)
     (OUT / 'index.html').write_text(page, encoding='utf-8')
     (OUT / 'assets').mkdir(exist_ok=True)
