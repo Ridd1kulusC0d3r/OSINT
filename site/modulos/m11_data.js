@@ -1,0 +1,40 @@
+window.D={key:'osm11:',skip:['missoes','quiz','flash','lacunas','lab-bib'],doneMsg:'Módulo 11 concluído — do leito do Tor de volta à superfície 🌊',
+ebookNames:{},
+missions:[
+ ['Monte o ambiente antes de ler','Suba Whonix ou Tails numa VM e confirme que todo o tráfego sai pelo Tor. Só depois abra o paper do Tor.','b-t1'],
+ ['Leia o paper fundador','Leia “Tor: The Second-Generation Onion Router” e escreva em 5 linhas contra quem o Tor protege e contra quem não protege.','b-t1'],
+ ['Simule em vez de tocar a rede','Leia o fundamento do Shadow + tornettools e anote por que experimentar na rede pública é um problema ético e estatístico.','b-t2'],
+ ['Meça a réplica','Com sementes do Ahmia, colete 50 páginas .onion públicas com custódia (hash + data) e conte quantas são cópias de outras.','b-t4'],
+ ['Seja crítico com o ataque','Leia um paper de website fingerprinting e a crítica de Juarez. O ataque sobrevive ao mundo real?','b-t5'],
+ ['Siga o dinheiro','Rode um baseline do Elliptic Data Set (scikit-learn) e explique por que o Monero recente é menos rastreável.','b-t6'],
+ ['Calibre o LLM','Antes de confiar num “STIX automático”, leia o SoK de extração de TTP e meça a acurácia de um pipeline num fórum de exemplo.','b-t7'],
+ ['Publique um relatório','Escreva um relatório curto com fontes graduadas pelo Admiralty Code e hipóteses concorrentes (ACH).','b-t8']
+],
+Q:[
+ ['A maior parte do que se chama de “dark web” é, na verdade…',['surface','deep (atrás de login, paywall ou formulário)','I2P','mercados'],1,'A zona deep é a maior, e legal de acessar.'],
+ ['Qual é a regra 2 de mergulho?',['comprar para testar','observar, não interagir','conversar com vendedores','baixar amostras'],1,'A linha é a interação.'],
+ ['O paper fundador do Tor descreve…',['blockchain','circuitos, forward secrecy, diretórios e hidden services por rendezvous','mixnets contínuas','fingerprinting'],1,'Dingledine, Mathewson e Syverson, USENIX Security 2004.'],
+ ['O Nym é a implantação de qual sistema acadêmico?',['Loopix','Freenet','I2P','Tor v2'],0,'Loopix, USENIX Security 2017.'],
+ ['Segundo o mapa, cerca de quanto do conteúdo .onion é réplica?',['10%','30%','82%','100%'],2,'A dark web é menor e mais duplicada do que o mito sugere.'],
+ ['Por que usar Shadow + tornettools?',['para atacar a rede','para experimentar Tor com estatística honesta sem tocar a rede pública','para minerar','para vender dados'],1,'Rede Tor simulada.'],
+ ['Na correlação e no fingerprinting, a crítica de Juarez lembra que…',['os ataques sempre funcionam','ataques de laboratório nem sempre sobrevivem ao mundo real','o Tor é inseguro','o v3 caiu'],1,'Leia o ataque e a crítica juntos.'],
+ ['Quem fundou o campo de clustering de endereços Bitcoin?',['Meiklejohn','Möser','Huang','Dingledine'],0,'Meiklejohn et al.'],
+ ['O mapa diz que o WormGPT 2025 é…',['um modelo treinado do zero pelo crime','um wrapper jailbroken de modelos legítimos','um paper','uma lei'],1,'O crime reembalou modelo legítimo.'],
+ ['Para graduar a confiabilidade de uma fonte no relatório, use…',['Pyramid of Pain','Admiralty Code','STIX','Diamond Model'],1,'Fonte e informação graduadas separadamente.'],
+ ['Coletar PII de um fórum criminoso é…',['livre de regras','tratamento de dado pessoal, e a LGPD se aplica','proibido sempre','irrelevante'],1,'Documente base legal e escopo antes.'],
+ ['O ramal A trata de…',['Telegram BR','Detecção pela Ausência','mercados','VPN'],1,'FLP, Chandra-Toueg e o feature-positive effect.']
+],
+G:[
+ ['Surface / Deep / Dark','As três zonas: indexada, atrás de barreira e só via rede de anonimato.'],
+ ['Onion routing','Roteamento em camadas cifradas por vários nós; base do Tor.'],
+ ['Hidden service v3','Serviço .onion atual, com chaves ed25519; o v2 foi descontinuado.'],
+ ['Mixnet','Rede que mistura e atrasa mensagens para esconder metadado de tempo (ex.: Loopix, Nym).'],
+ ['Website fingerprinting','Inferir o site visitado pelo padrão do tráfego cifrado.'],
+ ['Correlação de fluxo','Ligar entrada e saída do Tor pelo tempo e volume do tráfego.'],
+ ['Shadow','Simulador para experimentar redes Tor privadas.'],
+ ['Clustering de endereços','Agrupar endereços de uma mesma carteira por heurísticas.'],
+ ['Admiralty Code','Escala de confiabilidade da fonte (A–F) e da informação (1–6).'],
+ ['ACH','Análise de hipóteses concorrentes.'],
+ ['Feature-positive effect','Tendência humana de notar presença mais que ausência.'],
+ ['Custódia','Registro de hash, data e origem de cada coleta.']
+]};

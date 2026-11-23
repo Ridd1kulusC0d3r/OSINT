@@ -1,0 +1,45 @@
+name: Site (GitHub Pages)
+
+on:
+  push:
+    branches: [main]
+    paths: ['site/**', 'docs/**', 'labs/**', 'templates/**', 'recursos/**', 'tools/**', 'assets/**', '.github/workflows/pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dependência do build
+        run: pip install beautifulsoup4
+      - name: Validar documentação
+        run: python tools/check_docs.py && python -m unittest discover -s tools/tests
+      - name: Gerar base de fontes e site
+        run: python tools/build_fontes.py && python tools/build_site.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

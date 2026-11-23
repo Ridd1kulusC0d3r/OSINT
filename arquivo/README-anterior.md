@@ -19,7 +19,7 @@ Vamos aprender, colaborar e compartilhar os aprendizados sobre OSINT juntos? �
 
 # O que é OSINT?
 # Como aprender OSINT?
-Como diz os professores [@Emerson](https://www.linkedin.com/in/emersonwendt/)  e [@Alessandro](https://www.linkedin.com/in/delbarreto19/) , sõ tem como aprender praticando e aplicando, fundamentando teória e prática, felizmente ou infelizmente não temos outra opção aqui! Pratiquem muito!
+Só tem como aprender praticando e aplicando, unindo teoria e prática. Pratiquem muito!
 
 # Por onde começar a estudar?
 # Tipos de inteligências:

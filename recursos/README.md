@@ -10,6 +10,9 @@ A curadoria é organizada por **pergunta investigativa**, não por popularidade 
 | Identificar fontes institucionais e bibliografia | [Fontes comentadas](fontes-e-referencias.md) |
 | Escolher ferramentas conscientemente | [Comparação por finalidade](ferramentas.md) |
 | Pesquisar o índice de referências como dados | [Catálogo CSV](catalogo.csv) |
+| Ver todas as fontes públicas, uma por linha, por categoria | [Lista completa](lista-completa.md) |
+| Usar a base inteira como dados (com status, custo e OPSEC) | [fontes.json](fontes.json) · gerado por `tools/build_fontes.py` |
+| Saber usar cada plataforma | [Guias por plataforma](../docs/plataformas/README.md) |
 | Explorar material preservado | [Acervo histórico, não validado](../docs/acervo.md) |
 
 ## Como ler um recurso deste catálogo

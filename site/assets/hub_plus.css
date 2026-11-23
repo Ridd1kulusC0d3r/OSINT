@@ -1,0 +1,97 @@
+
+/* ===== camadas novas (hub_plus) ===== */
+#pal{position:fixed;inset:0;background:rgba(7,7,11,.88);display:none;z-index:60;padding:8vh 14px 14px;align-items:flex-start;justify-content:center}
+#pal.on{display:flex}
+#pal .card{width:100%;max-width:720px;background:var(--card);border:1px solid var(--acc);border-radius:16px;padding:14px;max-height:80vh;display:flex;flex-direction:column}
+#palIn{width:100%;font:16px var(--sans);padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--tx)}
+#palRes{overflow:auto;margin-top:10px;flex:1}
+#palRes a{display:flex;gap:10px;align-items:baseline;padding:8px 10px;border-radius:9px;color:var(--tx);text-decoration:none;border:1px solid transparent}
+#palRes a.sel,#palRes a:hover{border-color:var(--acc);background:var(--card2)}
+#palRes .ty{font:600 10.5px var(--mono);color:var(--acc);text-transform:uppercase;min-width:78px;letter-spacing:.04em}
+#palRes .ds{color:var(--mut);font-size:12.5px;display:block;overflow-wrap:anywhere}
+#palRes .tt{overflow-wrap:anywhere}
+.palhint{margin-top:8px}
+.pivrow{display:flex;gap:8px;flex-wrap:wrap}
+.pivrow input{flex:1;min-width:min(260px,100%)}
+.pivbox{margin:16px 0}
+.pvg{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:12px 0}
+.pvg h4{margin:0 0 4px}
+.pvi{display:flex;gap:10px;align-items:flex-start;padding:6px 0;border-top:1px dashed var(--line)}
+.pvi:first-of-type{border-top:0}
+.pvi input{margin-top:5px;width:16px;height:16px;accent-color:var(--acc);flex:none}
+.pvi.ok{opacity:.45}
+.pvi .n{color:var(--mut);font-size:12.5px;display:block}
+.pvi a,.pvi code{overflow-wrap:anywhere}
+.pvhead{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:14px 0 4px}
+.fav{cursor:pointer;background:none;border:0;color:var(--line);font-size:15px;line-height:1;padding:0 4px 0 0;vertical-align:baseline}
+.fav:hover{color:var(--mut)}
+.fav.on{color:var(--acc)}
+.notebox{margin:10px 0 0}
+.notebox textarea{width:100%;min-height:90px}
+.rtc{cursor:pointer;text-align:left;font:inherit;color:inherit}
+.rtc .ic{font:800 22px var(--disp);color:var(--acc)}
+.rtstep{display:flex;gap:12px;align-items:flex-start;background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:12px;margin:8px 0}
+.rtstep.cur{border-color:var(--acc)}
+.rtstep.ok{opacity:.5}
+.rtstep input{margin-top:4px;width:18px;height:18px;accent-color:var(--acc);flex:none}
+.rtstep .k{font:600 11px var(--mono);color:var(--acc)}
+.rtstep .d{color:var(--mut);font-size:13.5px}
+.strip{display:flex;gap:4px;align-items:flex-end;height:46px;margin-top:8px}
+.strip i{flex:1;background:var(--line);border-radius:3px;min-height:4px}
+.strip i.h{background:var(--acc)}
+.smq{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.smq .ex{display:block}
+.smopt{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end}
+.smopt label.chk{margin:0}
+.big{font:800 40px var(--disp);color:var(--acc)}
+.kv{display:grid;grid-template-columns:minmax(90px,max-content) 1fr;gap:4px 12px;font-size:14px}
+.kv b{color:var(--mut);font-weight:600}
+.kv span{overflow-wrap:anywhere}
+@media print{
+ .side,.fab,.menu-btn,#pal,#focus,.done-row,.toast,.fav,.notebtn{display:none!important}
+ .wrap{display:block!important}
+ main{margin:0!important;padding:0!important;max-width:none!important}
+ body{background:#fff!important;color:#000!important}
+ details>.body{display:block!important}
+ .sec,.box,.tool{break-inside:avoid;border-color:#bbb!important;background:#fff!important}
+ a{color:#000!important}
+}
+
+/* ===== Módulo 08: mapas mentais ===== */
+.mmbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 12px}
+.mmbar .mmx{flex:1 1 260px;min-width:0}
+.mmbar .mmmenu{flex-basis:100%}
+.mm{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:14px 14px 10px;overflow-x:auto}
+.mmroot{display:inline-block;font-family:var(--disp);font-weight:800;font-size:20px;letter-spacing:-.3px;color:var(--acc);border:1px solid var(--acc);border-radius:10px;padding:6px 14px;margin-bottom:6px}
+.mm ul{list-style:none;margin:0;padding:0 0 0 18px;border-left:1px dashed var(--line)}
+.mm>ul{border-left:0;padding-left:4px}
+.mm li{margin:3px 0;position:relative}
+.mm li.has:not(.open)>ul,.mm li.has:not(.open)>.mmn-note{display:none}
+.mmrow{display:block;min-height:26px;line-height:1.55;padding:2px 0}
+.mmrow>*{vertical-align:middle;margin-right:6px}
+.mmtg{width:20px;height:20px;border:1px solid var(--line);border-radius:5px;background:var(--bg);color:var(--acc);cursor:pointer;font:600 12px/1 var(--mono);padding:0;flex:none}
+.mmtg::before{content:'+'}.mm li.open>.mmrow>.mmtg::before{content:'−'}
+.mm li:not(.has)>.mmrow{padding-left:26px}
+.mmk,.mmtg{display:inline-block}
+.mmck{accent-color:var(--acc);margin:0;flex:none}
+.mmt{font-size:14px}
+span.mmt{color:var(--tx)}
+.mm li.has>.mmrow .mmt{font-weight:600}
+.mm li.done>.mmrow .mmt{color:var(--mut);text-decoration:line-through;text-decoration-color:var(--acc)}
+.mmk{font:600 11px/18px var(--mono);min-width:18px;height:18px;text-align:center;border-radius:50%;border:1px solid var(--acc);color:var(--acc)}
+.mmc{font:12px var(--mono);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 8px;color:var(--tx)}
+.mmz{font:11px var(--mono);color:var(--rosa);border:1px solid var(--rosa);border-radius:99px;padding:1px 8px}
+.mma a{font:11px var(--mono);color:var(--mut);border:1px solid var(--line);border-radius:6px;padding:1px 6px;margin-left:2px}
+.mma a:hover{color:var(--acc);border-color:var(--acc)}
+.mmqc{font-size:11.5px;color:var(--mut)}
+.mmn-note{font-size:12.5px;color:var(--mut);margin:0 0 4px 26px}
+/* ===== Módulo 08: catálogo Bellingcat ===== */
+.bccat{margin:8px 0}
+.bcgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:8px}
+.tool.bc{padding:10px 12px;margin:0}
+.tool.bc p{font-size:12.5px}
+.tool.bc .bcm,.tool.bc .bcx{font:11px var(--mono);color:var(--mut3);margin-top:4px}
+.tool.bc .bcx{color:var(--mut)}
+.bcs{color:var(--acc)}
+.tool.bc .nolink{font-weight:600}
+.tag.bctop{color:var(--acc);border-color:var(--acc)}

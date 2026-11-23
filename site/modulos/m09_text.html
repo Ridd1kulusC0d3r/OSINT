@@ -1,0 +1,78 @@
+<header class="hero" id="topo">
+  <div class="pill" style="display:inline-block;margin-bottom:10px">OSINT · da fonte à evidência</div>
+  <h1>Atlas: OSINT Framework e mapas</h1>
+  <p>Um mapa mental de cada módulo deste site, o OSINT Framework inteiro, filtrável e com crédito, e fluxos de verificação no formato “tenho isto → faço isto → ganho aquilo”. Marque o que já percorreu, exporte em OPML, Mermaid ou Markdown.</p>
+  <div class="pills"><span class="pill"><b>{{NMAPS}}</b> mapas de módulo</span><span class="pill"><b>{{NOSF}}</b> ferramentas do OSINT Framework</span><span class="pill"><b>{{NCATS}}</b> categorias</span><span class="pill"><b>4</b> fluxos</span></div>
+  <div class="call tip" style="margin-top:16px"><b>Laboratório</b><a href="#lab-osf">Buscar no OSINT Framework</a> — filtre por palavra, categoria, status, custo, cadastro, instalação e OPSEC.</div>
+</header>
+
+<section class="sec" id="visao" data-group="Começo">
+<h2><span class="num">00</span> Como usar os mapas</h2>
+<p class="lead">Cada ramo é uma seção ou fonte. Abra e feche os ramos, marque o que já fez e exporte o mapa para o seu editor favorito.</p>
+<div class="grid two">
+<div class="box"><h4>Controles de cada mapa</h4><ul><li><b>Abrir tudo / fechar tudo</b>.</li><li><b>Checkbox</b> em cada ramo, com progresso salvo neste navegador.</li><li><b>Exportar</b> em OPML (XMind, FreeMind), Mermaid ou Markdown, copiado para a área de transferência.</li></ul></div>
+<div class="box"><h4>Fluxos</h4><p>Nos fluxos de verificação, cole o seu dado no campo acima do mapa: os ramos com consulta pronta passam a abrir já com ele.</p></div>
+</div>
+</section>
+
+{{MODMAPS}}
+
+<section class="sec" id="c-osf" data-group="C · OSINT Framework">
+<h2><span class="num">C1</span> OSINT Framework</h2>
+<p class="lead">O <a href="https://osintframework.com/">OSINT Framework</a> organiza ferramentas gratuitas em forma de árvore, a partir do tipo de dado. O código e a base (<code>arf.json</code>) são abertos sob licença MIT, o que permite trazê-lo com crédito.</p>
+<div class="grid two">
+<div class="box"><h4>O que está aqui</h4><ul><li>{{NOSF}} ferramentas em {{NOSFF}} pastas e {{NCATS}} categorias.</li><li>Para a maioria: descrição, status, custo, OPSEC (passiva ou ativa), entrada e saída.</li><li>Categorias voltadas a localizar ou identificar pessoas (buscadores de pessoas, telefones, e-mail, nome de usuário, mensageria e relacionamento) ficam fora desta edição pública.</li></ul></div>
+<div class="box"><h4>Legenda (do próprio framework)</h4><ul><li><b>(T)</b> precisa instalar e rodar localmente.</li><li><b>(D)</b> é um Google dork.</li><li><b>(R)</b> exige cadastro.</li><li><b>(M)</b> o link contém o termo e precisa ser editado à mão.</li><li><span class="tag">toca o alvo</span> OPSEC ativa: a ferramenta faz requisições aos serviços pesquisados.</li></ul></div>
+</div>
+<div class="call note"><b>Licença</b>MIT License — Copyright (c) 2017 Justin Nordine. Cópia em <a href="https://github.com/Ridd1kulusC0d3r/OSINT/tree/main/recursos/externos/osint-framework">recursos/externos/osint-framework</a>. As descrições estão em inglês, como no original. O status é o declarado pelo projeto; confira antes de usar.</div>
+</section>
+
+<section class="sec" id="lab-osf" data-group="C · OSINT Framework">
+<h2><span class="num">C1b</span> Laboratório: buscar no OSINT Framework</h2>
+<p class="lead">Filtre as {{NOSF}} ferramentas por palavra, categoria, status, custo e OPSEC. Para trabalho discreto, ligue “só passivas”.</p>
+<div class="box form">
+<div class="grid two">
+<div><label>Palavra (ex.: whois, archive, satellite, malware)</label><input id="of_q" placeholder="digite para filtrar"></div>
+<div><label>Categoria</label><select id="of_cat"><option value="">Todas as {{NCATS}} categorias</option>{{OSFCATS}}</select></div>
+</div>
+<div class="done-row" style="justify-content:flex-start"><label class="pvi" style="margin:0"><input type="checkbox" id="of_live"><span>Só ativas</span></label><label class="pvi" style="margin:0"><input type="checkbox" id="of_free"><span>Só gratuitas</span></label><label class="pvi" style="margin:0"><input type="checkbox" id="of_pass"><span>Só passivas (não tocam o alvo)</span></label><label class="pvi" style="margin:0"><input type="checkbox" id="of_noreg"><span>Sem cadastro</span></label><label class="pvi" style="margin:0"><input type="checkbox" id="of_web"><span>Sem instalar</span></label></div>
+<p class="progtxt" id="of_n"></p>
+</div>
+{{OSF}}
+</section>
+
+<section class="sec" id="c-fluxos" data-group="C · Fluxos de verificação">
+<h2><span class="num">C2</span> Fluxos de verificação</h2>
+<p class="lead">Quatro roteiros no formato “tenho este dado → faço isto → ganho aquele dado”, ligados às seções do site.</p>
+<table>
+<tr><th>Tenho</th><th>Fluxo</th><th>Categoria no OSINT Framework</th></tr>
+<tr><td>Publicação viral</td><td><a href="#c-fluxo-publicacao">C3</a></td><td><a href="#osf-disinformation-media-verification">Disinformation &amp; Media Verification</a></td></tr>
+<tr><td>Site ou domínio</td><td><a href="#c-fluxo-site">C4</a></td><td><a href="#osf-domain-name">Domain Name</a></td></tr>
+<tr><td>Imagem</td><td><a href="#c-fluxo-imagem">C5</a></td><td><a href="#osf-geolocation-tools-maps">Geolocation Tools / Maps</a></td></tr>
+<tr><td>Empresa</td><td><a href="#c-fluxo-empresa">C6</a></td><td><a href="#osf-business-records">Business Records</a></td></tr>
+</table>
+</section>
+
+{{FLOWS}}
+
+<section class="sec" id="missoes" data-group="Praticar">
+<h2><span class="num">P1</span> Missões práticas</h2>
+<div id="missionList"></div>
+</section>
+<section class="sec" id="quiz" data-group="Praticar">
+<h2><span class="num">P2</span> Revisão</h2>
+<div class="pill" id="score">Acertos: 0 / 0</div>
+<div id="quizList"></div>
+<div class="done-row"><button class="btn" id="quizReset">Refazer</button></div>
+</section>
+<section class="sec" id="flash" data-group="Praticar">
+<h2><span class="num">P3</span> Flashcards e glossário</h2>
+<div class="flash" id="fc"><div class="in"><div class="f" id="fcF"></div><div class="b" id="fcB"></div></div></div>
+<div class="done-row" style="justify-content:space-between"><button class="btn" id="fcPrev">← Anterior</button><span class="progtxt" id="fcN"></span><button class="btn" id="fcNext">Próximo →</button></div>
+<details><summary>Ver glossário completo</summary><div class="body"><table id="glossTable"></table></div></details>
+</section>
+<section class="sec" id="lacunas" data-group="Praticar">
+<h2><span class="num">P4</span> Fontes e limites</h2>
+<ul><li>Mapas por módulo gerados automaticamente a partir das seções deste site.</li><li>OSINT Framework sob licença MIT; status e descrições são os do projeto original.</li><li>Fluxos de verificação autorais (DEIVOSINT).</li></ul>
+<div class="done-row"><button class="btn" id="resetAll">Zerar meu progresso</button></div>
+</section>

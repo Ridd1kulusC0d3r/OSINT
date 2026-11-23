@@ -11,10 +11,14 @@
   <a href="docs/trilha-inicial.md"><img alt="COMEÇAR" src="https://img.shields.io/badge/COMEÇAR-TRILHA_INICIAL-00AFA3?style=for-the-badge"></a>
   <a href="labs/README.md"><img alt="PRATICAR" src="https://img.shields.io/badge/PRATICAR-6_LABORATÓRIOS-0E607B?style=for-the-badge"></a>
   <a href="docs/indice.md"><img alt="APROFUNDAR" src="https://img.shields.io/badge/APROFUNDAR-GUIAS_TÉCNICOS-122C48?style=for-the-badge"></a>
+  <a href="https://ridd1kulusc0d3r.github.io/OSINT/"><img alt="SITE" src="https://img.shields.io/badge/ABRIR-O_SITE-F2A33A?style=for-the-badge"></a>
 </p>
 
 <p align="center">
   <a href="CONTRIBUTING.md">Contribuir</a> ·
+  <a href="https://ridd1kulusc0d3r.github.io/OSINT/">Site</a> ·
+  <a href="docs/plataformas/README.md">Guias por plataforma</a> ·
+  <a href="recursos/lista-completa.md">Lista completa de fontes</a> ·
   <a href="recursos/README.md">Catálogo de fontes</a> ·
   <a href="docs/qualidade-e-etica.md">Qualidade e ética</a> ·
   <a href="ROADMAP.md">Roadmap</a> ·
@@ -53,6 +57,8 @@ flowchart LR
 | **Validar imagens, mapas e datas** | [GEOINT / IMINT](docs/geoint-imint.md) | Avaliação visual responsável |
 | **Padronizar evidências e relatórios** | [Dados e proveniência](docs/dados-e-proveniencia.md) | Registro auditável |
 | **Estudar com exercícios** | [6 laboratórios](labs/README.md) | Casos fictícios com gabarito |
+| **Saber usar cada plataforma** | [Guias por plataforma](docs/plataformas/README.md) | O que é público, como preservar e limites |
+| **Achar uma fonte por categoria** | [Lista completa](recursos/lista-completa.md) | Uma linha por fonte, separada por categoria |
 
 ## Biblioteca técnica
 
@@ -64,6 +70,9 @@ flowchart LR
 | **04 · Engenharia de evidências** | [Proveniência](docs/dados-e-proveniencia.md) · [Templates](templates/README.md) | Quem prepara relatórios |
 | **05 · Bibliografia e fontes** | [Leituras essenciais](recursos/leituras-essenciais.md) · [Ferramentas](recursos/ferramentas.md) · [Catálogo CSV](recursos/catalogo.csv) | Estudo e curadoria |
 | **06 · Laboratórios** | [Índice e rubricas](labs/README.md) | Treino reproduzível |
+| **07 · Plataformas** | [Redes sociais](docs/plataformas/redes-sociais.md) · [Buscadores e arquivos](docs/plataformas/buscadores-e-arquivos.md) · [Mapas e imagens](docs/plataformas/mapas-e-imagens.md) · [Registros públicos BR](docs/plataformas/registros-publicos-br.md) | Uso responsável de cada fonte |
+
+> **Site:** todo o conteúdo também está [navegável no GitHub Pages](https://ridd1kulusc0d3r.github.io/OSINT/), com módulos, Bíblia de fontes com mini guias, roteiros de verificação, simulado e caderno local. O site é gerado a partir deste repositório por `tools/build_site.py`.
 
 A [trilha por competências](docs/indice.md) organiza a sequência sugerida e diferencia o que está entregue do que ainda está planejado.
 
@@ -102,12 +111,12 @@ OSINT/
 ├── docs/                Método, trilhas, guias analíticos e ética
 ├── labs/                Seis estudos fictícios e critérios de avaliação
 ├── templates/           Plano, registro, hipóteses e relatório
-├── recursos/            Bibliografia, ferramentas e catálogo CSV
-├── tools/               Validador local e testes de qualidade
+├── docs/plataformas/    Guias por plataforma (redes, buscadores, mapas, registros BR)
+├── recursos/            Bibliografia, catálogo CSV, fontes.json e lista completa
+├── site/                Fonte do site (GitHub Pages): módulos, assets e dados
+├── tools/               Build do site, base de fontes, validador e testes
 ├── assets/              Identidade visual do projeto
-├── Scripts/             Legado (sem auditoria nesta versão)
-├── TOOLS/ IMINT/ SOCMiNT/  Acervo histórico em revisão
-└── arquivo/             Material anterior preservado
+└── arquivo/             Material anterior preservado (legado/ sem auditoria)
 ```
 
 ## Contribuição e governança

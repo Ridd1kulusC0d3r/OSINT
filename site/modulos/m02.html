@@ -1,0 +1,173 @@
+<header class="hero" id="topo"><div class="pill" style="display:inline-block;margin-bottom:10px">DEIVOSINT · Bíblia OSINT</div><h1>Busca e identidade de investigação</h1><p>Como investigar sem expor você mesmo — o assistente virtual de investigação (AVI) e o navegador blindado — e como tirar dos buscadores o que eles escondem de quem só digita palavras.</p><div class="pills"><span class="pill"><b>AVI</b> do ambiente ao perfil</span><span class="pill"><b>Busca</b> operadores e dorks</span><span class="pill"><b>74</b> ferramentas</span><span class="pill"><b>1</b> laboratórios</span></div><div class="call tip" style="margin-top:16px"><b>Laboratório</b><a href="#lab-dork">Construtor de buscas e dorks</a></div></header>
+<section class="sec" id="visao" data-group="Começo">
+<h2><span class="num">00</span> Visão geral</h2>
+<p class="lead">Duas competências que andam juntas: não ser visto e saber procurar.</p>
+<p>A parte A trata da identidade de trabalho: o que é, os limites legais, o ambiente e a OPSEC do navegador. A parte B ensina a usar buscadores como ferramenta de precisão: operadores, dorks, busca por imagem, alertas e checagem de fatos.</p>
+<div class="call warn"><b>Antes de criar qualquer perfil</b>Leia a seção <a href="#avi-limites">A2</a>. A linha entre observar e enganar é jurídica, não técnica.</div>
+</section>
+<section class="sec" id="avi-conceito" data-group="A · Assistente virtual de investigação">
+<h2><span class="num">A1</span> O que é um AVI</h2>
+<p class="lead">Um AVI (sock puppet, perfil de pesquisa) é uma identidade de trabalho separada da sua, usada para consultar fontes sem revelar quem pesquisa.</p>
+<p>Ele existe por dois motivos: proteger o investigador (o alvo não vê quem visitou o perfil, o vazamento não leva ao seu nome) e proteger a investigação (nada ligado ao caso aparece no seu histórico pessoal). Um bom AVI é coerente: nome, idade, cidade, rotina de uso e rede de contatos fazem sentido juntos, e nada nele aponta para você.</p>
+<div class="grid two"><div class="box"><h4>Níveis de AVI</h4><ul><li><b>Passivo</b>: só navega e lê; não publica, não interage.</li><li><b>Com conta</b>: tem login nas plataformas para ver o que exige conta.</li><li><b>Ativo</b>: interage (segue, entra em grupos) — exige base legal clara.</li></ul></div><div class="box"><h4>O que nunca fazer</h4><ul><li>Usar foto de pessoa real.</li><li>Ligar o AVI a telefone, e-mail ou cartão seu.</li><li>Acessar o AVI da rede de casa sem proteção.</li><li>Reaproveitar o mesmo AVI entre casos sem avaliar.</li></ul></div></div>
+<div class="grid two"><div class="tool"><a class="t" href="https://www.amazon.com.br/Sockpuppet-Martingale-Cycle-Matthew-Blakstad/dp/1473624746">Sockpuppet: The Martingale Cycle</a></div></div>
+</section>
+<section class="sec" id="avi-limites" data-group="A · Assistente virtual de investigação">
+<h2><span class="num">A2</span> Limites legais: perfil fictício é crime?</h2>
+<p class="lead">Ter um perfil de pesquisa para observar conteúdo público não é, por si, crime. O problema começa quando o perfil é usado para enganar alguém e obter vantagem ou dado.</p>
+<ul><li><b>Falsa identidade</b> (Código Penal, art. 307): atribuir-se identidade falsa para obter vantagem ou causar dano.</li><li><b>Infiltração de agentes</b> em ambiente virtual é instrumento de investigação policial e depende de autorização judicial (Lei 12.850/2013, art. 10-A; Lei 13.441/2017, para crimes contra a dignidade sexual de crianças e adolescentes).</li><li><b>Termos de uso</b>: as plataformas proíbem contas falsas; a consequência imediata é a suspensão, e o uso pode ser questionado no processo.</li><li><b>Prova</b>: o que foi obtido por engano pode ser anulado e contaminar o resto.</li></ul>
+<div class="call tip"><b>Regra DEIVOSINT</b>Fora de investigação oficial autorizada, o AVI só observa o que é público. Não pede amizade a alvo, não conversa, não entra em grupo fechado se passando por outra pessoa.</div>
+<div class="call note"><b>Não é parecer jurídico</b>Em caso concreto, consulte a assessoria jurídica da sua instituição.</div>
+<div class="grid two"><div class="tool"><a class="t" href="https://juspol.com.br/pandemia-e-crimes-contra-a-economia-popular-cookies-e-atribuicao-de-autoria/">Pandemia e crimes contra a economia popular: cooki</a></div></div>
+</section>
+<section class="sec" id="avi-ambiente" data-group="A · Assistente virtual de investigação">
+<h2><span class="num">A3</span> O sistema do AVI</h2>
+<p class="lead">O AVI começa no sistema operacional, não na rede social.</p>
+<ul><li>VM dedicada (ou Tails/Whonix para casos sensíveis), com snapshot limpo.</li><li>Idioma, fuso e teclado coerentes com a história do AVI.</li><li>Navegador exclusivo, sem sincronização de conta.</li><li>Nenhum arquivo pessoal, nenhuma pasta compartilhada com o computador hospedeiro.</li></ul>
+<div class="grid two"><div class="tool"><a class="t" href="https://tails.net/">Tails</a></div><div class="tool"><a class="t" href="https://portableapps.com/pt-br">PortableApps</a></div><div class="tool"><a class="t" href="https://www.torproject.org/download/">Tor Browser portátil</a></div><div class="tool"><a class="t" href="https://www.virtualbox.org/">VirtualBox</a></div><div class="tool"><a class="t" href="https://www.whonix.org/">Whonix</a></div></div>
+</section>
+<section class="sec" id="avi-rede" data-group="A · Assistente virtual de investigação">
+<h2><span class="num">A4</span> Rede: Tor, VPN e proxy para o AVI</h2>
+<p class="lead">O IP de saída precisa combinar com a história do AVI e nunca ser o da sua casa ou do seu trabalho.</p>
+<p>Use VPN com servidor no país ou região do AVI para contas em redes sociais (o Tor costuma disparar bloqueios e verificações). Use o Tor para navegação de leitura e para a Dark Web. Troque de servidor com critério: um AVI que aparece cada dia num país levanta suspeita.</p>
+<div class="grid two"><div class="tool"><a class="t" href="https://www.torproject.org/">Tor Project</a></div><div class="tool"><a class="t" href="https://protonvpn.com/pt_br/">ProtonVPN</a></div><div class="tool"><a class="t" href="https://nordvpn.com/pt-br/">NordVPN</a></div><div class="tool"><a class="t" href="https://www.expressvpn.com/">ExpressVPN</a></div><div class="tool"><a class="t" href="https://www.cyberghostvpn.com/">CyberGhost</a></div></div>
+</section>
+<section class="sec" id="avi-opsec" data-group="A · Assistente virtual de investigação">
+<h2><span class="num">A5</span> OPSEC do navegador</h2>
+<p class="lead">A impressão digital do navegador (fingerprint) liga sessões mesmo com IP diferente.</p>
+<ul><li>Teste a impressão digital antes e depois de configurar.</li><li>Bloqueie rastreadores e scripts, mas sem exagerar: um navegador “raro demais” também chama atenção.</li><li>User agent coerente com o sistema e o aparelho do AVI.</li><li>Um perfil de navegador por AVI.</li></ul>
+<div class="grid two"><div class="tool"><a class="t" href="https://coveryourtracks.eff.org/">Panopticlick → Cover Your Tracks</a></div><div class="tool"><a class="t" href="https://browserleaks.com/">Browser Leaks</a></div><div class="tool"><a class="t" href="https://www.ghostery.com">Ghostery</a></div><div class="tool"><a class="t" href="https://github.com/mitchmoser/sputnik">Sputnik — OSINT Tool</a></div><div class="tool"><a class="t" href="https://add0n.com/useragent-switcher.html">User-Agent Switcher and Manager</a></div><div class="tool"><a class="t" href="https://pulsedive.com/">Pulsedive</a></div><div class="tool"><a class="t" href="https://tails.net/">Tails</a></div><div class="tool"><a class="t" href="https://www.whatismybrowser.com/detect/what-is-my-user-agent/">WhatIsMyBrowser — user agent</a></div><div class="tool"><a class="t" href="https://www.whatsmyua.info/">WhatsMyUA</a></div><div class="tool"><a class="t" href="https://noscript.net/">NoScript</a></div><div class="tool"><a class="t" href="https://privacybadger.org/">Privacy Badger</a></div><div class="tool"><a class="t" href="https://ublockorigin.com/">uBlock Origin</a></div></div>
+</section>
+<section class="sec" id="avi-deteccao" data-group="A · Assistente virtual de investigação">
+<h2><span class="num">A6</span> O algoritmo percebe o AVI? Checklist</h2>
+<ul><li>Mesma rede ou aparelho do seu perfil pessoal? Perfil ligado.</li><li>Criou a conta e no mesmo dia procurou o alvo? Padrão de investigação.</li><li>Nenhum seguidor, nenhuma foto, nenhum histórico? Conta descartável.</li><li>Login de vários países em pouco tempo? Bloqueio.</li><li>“Pessoas que você talvez conheça” mostra gente sua? Vínculo vazado (contatos, e-mail, telefone).</li></ul>
+<p>Revise o checklist antes de cada caso. Se a conta de trabalho for associada a você, aposente-a.</p>
+</section>
+<section class="sec" id="b-motores" data-group="B · Mecanismos de busca">
+<h2><span class="num">B1</span> Por que usar mais de um buscador</h2>
+<p class="lead">Cada buscador tem índice, país e algoritmo próprios: o que não aparece num pode estar no outro.</p>
+<p>Os grandes (Google, Bing, Yandex, Baidu) cobrem regiões e idiomas diferentes. Os independentes (Brave, Mojeek, Qwant) têm índice próprio ou combinado. Metabuscadores reúnem vários de uma vez. Repita a mesma busca em pelo menos dois motores antes de concluir que “não existe”.</p>
+<div class="call warn"><b>Cuidado com “buscadores” de anúncio</b>Sites que imitam buscadores existem para exibir propaganda e coletar o que você digita. Use os conhecidos.</div>
+<div class="grid two"><div class="tool"><a class="t" href="https://search-22.com">Search-22</a></div><div class="tool"><a class="t" href="https://www.qwant.com/?l=pt">Qwant</a></div></div>
+</section>
+<section class="sec" id="b-google" data-group="B · Mecanismos de busca">
+<h2><span class="num">B2</span> Tirando mais do Google</h2>
+<ul><li>Configure as preferências: idioma, região, resultados por página, sem busca segura quando apropriado.</li><li>Use a aba <b>Ferramentas</b> para filtrar por período e resultados exatos.</li><li>O Google personaliza resultados: busque deslogado, no navegador do AVI.</li><li>Para remover seu próprio conteúdo pessoal dos resultados, há formulário específico.</li></ul>
+<div class="grid two"><div class="tool"><a class="t" href="https://www.google.com/preferences">google.com/preferences</a></div><div class="tool"><a class="t" href="https://support.google.com/websearch/answer/6302812">formulário do Google</a></div></div>
+</section>
+<section class="sec" id="b-operadores" data-group="B · Mecanismos de busca">
+<h2><span class="num">B3</span> Operadores booleanos e avançados</h2>
+<p class="lead">Operadores transformam uma busca genérica numa pergunta precisa.</p>
+<ul><li><code>"frase exata"</code> — só aquela sequência.</li><li><code>-palavra</code> — exclui; <code>OR</code> ou <code>|</code> — alternativas.</li><li><code>site:</code> domínio ou extensão · <code>filetype:</code> ou <code>ext:</code> tipo de arquivo.</li><li><code>intitle:</code> no título · <code>inurl:</code> na URL · <code>intext:</code> no texto.</li><li><code>before:</code> e <code>after:</code> com datas (AAAA-MM-DD).</li><li><code>*</code> — curinga para palavra desconhecida.</li></ul>
+<p>Combine aos poucos: comece amplo, veja o ruído e vá excluindo. Anote a consulta final no registro do caso: ela é reproduzível.</p>
+<div class="grid two"><div class="tool"><a class="t" href="https://web.archive.org/">Wayback Machine</a></div><div class="tool"><a class="t" href="https://cachedview.com/">CachedView</a></div></div>
+</section>
+<section class="sec" data-group="B · Mecanismos de busca" id="lab-dork">
+<h2><span class="num">B3b</span> Laboratório: construtor de buscas e dorks</h2>
+<p class="lead">Preencha só o que precisa. A consulta é montada ao vivo e você abre direto em cada buscador.</p>
+<div class="box form" id="fDork">
+<div class="builder">
+<div><label>Frase exata</label><input id="dk_exact" placeholder="ex.: golpe do pix"/></div>
+<div><label>Qualquer destes (OR)</label><input id="dk_or" placeholder="ex.: advogado, advogada"/></div>
+<div><label>Excluir</label><input id="dk_not" placeholder="ex.: militar, concurso"/></div>
+<div><label>site:</label><input id="dk_site" placeholder="ex.: gov.br"/></div>
+<div><label>filetype:</label><select id="dk_ft"><option value="">—</option><option>pdf</option><option>xls</option><option>xlsx</option><option>doc</option><option>docx</option><option>csv</option><option>txt</option><option>ppt</option><option>log</option></select></div>
+<div><label>intitle:</label><input id="dk_title" placeholder="ex.: index of"/></div>
+<div><label>inurl:</label><input id="dk_url" placeholder="ex.: transparencia"/></div>
+<div><label>intext:</label><input id="dk_text" placeholder="ex.: @gmail.com"/></div>
+</div>
+<div class="out" id="dk_out">Comece a preencher…</div>
+<div class="engines" id="dk_eng"></div>
+<div class="done-row" style="gap:8px"><button class="btn" id="dk_clear">Limpar</button><button class="btn pri" id="dk_copy">Copiar consulta</button></div>
+<h4>Modelos prontos (clique para carregar)</h4>
+<div class="engines" id="dk_tpl"></div>
+</div>
+<details><summary>Extra para praticar (não é do curso): gerador de dorks em Python stdlib</summary><div class="body">
+<pre id="pyDork"><button class="btn copy" data-copy="pyDork">Copiar</button>#!/usr/bin/env python3
+"""dorks.py — monta URLs de busca para vários buscadores (só biblioteca padrão)
+uso: python3 dorks.py "site:gov.br" "filetype:pdf" '"licitação"' """
+import sys, urllib.parse
+
+MOTORES = {
+    "Google": "https://www.google.com/search?q={}",
+    "Bing": "https://www.bing.com/search?q={}",
+    "DuckDuckGo": "https://duckduckgo.com/?q={}",
+    "Yandex": "https://yandex.com/search/?text={}",
+}
+
+consulta = " ".join(sys.argv[1:]) or 'site:gov.br filetype:pdf "relatório"'
+print(f"Consulta: {consulta}\n")
+for nome, base in MOTORES.items():
+    print(f"{nome:&lt;11} {base.format(urllib.parse.quote_plus(consulta))}")</pre></div></details>
+</section>
+<section class="sec" id="b-dorks" data-group="B · Mecanismos de busca">
+<h2><span class="num">B4</span> Dorks</h2>
+<p class="lead">Dork é uma consulta com operadores que encontra arquivos, páginas ou exposições específicas.</p>
+<p>Bases de dorks reúnem consultas testadas por categoria (documentos, painéis de login, arquivos de configuração, câmeras). Use para achar documentos públicos de uma organização, listas de e-mails expostas ou páginas esquecidas.</p>
+<pre id="dkEx"><button class="btn copy" data-copy="dkEx">Copiar</button>site:exemplo.com.br filetype:pdf
+<p>site:exemplo.com.br (filetype:xls OR filetype:xlsx OR filetype:csv) site:exemplo.com.br intitle:"index of" "@exemplo.com.br" -site:exemplo.com.br site:gov.br "nome completo" filetype:pdf</pre></p>
+<div class="call warn"><b>Dork não é autorização</b>Encontrar um painel ou arquivo exposto não autoriza abrir, baixar ou testar. Registre e, se for o caso, notifique o responsável.</div>
+<div class="grid two"><div class="tool"><a class="t" href="https://www.exploit-db.com/google-hacking-database">Google Hacking Database (Exploit-DB)</a></div><div class="tool"><a class="t" href="https://dorkgenius.com/">DorkGenius</a></div><div class="tool"><a class="t" href="https://www.dorkgpt.com/">DorkGPT</a></div><div class="tool"><a class="t" href="https://github.com/netlas-io/netlas-dorks">Netlas dorks</a></div><div class="tool"><a class="t" href="https://github.com/cipher387/Dorks-collections-list">Dorks collections list (cipher387)</a></div><div class="tool"><a class="t" href="https://github.com/BullsEye0/google_dork_list">BullsEye0/google_dork_list</a></div><div class="tool"><a class="t" href="https://github.com/BullsEye0/google_dork_list/blob/master/google_Dorks.txt">google_Dorks.txt</a></div></div>
+</section>
+<section class="sec" id="b-imagens" data-group="B · Mecanismos de busca">
+<h2><span class="num">B5</span> Busca por imagens</h2>
+<p class="lead">Busca reversa encontra onde uma imagem já apareceu; busca facial encontra rostos parecidos.</p>
+<p>Use pelo menos três motores, recorte a área de interesse e procure a versão mais antiga para chegar à origem. Os detalhes estão no <a href="#m05-a-reversa">Módulo 05</a>.</p>
+<div class="call warn"><b>Reconhecimento facial</b>Serviços de busca por rosto tratam dado biométrico (dado sensível na LGPD). Use só com base legal e registre a justificativa.</div>
+<div class="grid two"><div class="tool"><a class="t" href="https://lens.google/">Google Lens / Google Imagens</a></div><div class="tool"><a class="t" href="https://yandex.com/images/">Yandex Imagens</a></div><div class="tool"><a class="t" href="https://www.bing.com/visualsearch">Bing Visual Search</a></div><div class="tool"><a class="t" href="https://tineye.com/">TinEye</a></div><div class="tool"><a class="t" href="https://www.reverse-image-search.org/">Reverse Image Search</a></div><div class="tool"><a class="t" href="https://image.baidu.com/">Baidu Imagens</a></div><div class="tool"><a class="t" href="https://pimeyes.com">PimEyes</a> <span class="tag pago">pago</span></div><div class="tool"><a class="t" href="https://facecheck.id/">FaceCheck.ID</a></div></div>
+</section>
+<section class="sec" id="b-cse" data-group="B · Mecanismos de busca">
+<h2><span class="num">B6</span> Buscadores personalizados (Google CSE)</h2>
+<p class="lead">Um buscador próprio, restrito a uma lista de sites, poupa tempo em buscas repetidas.</p>
+<p>Crie um mecanismo com os sites que você consulta sempre (tribunais, diários oficiais, redes sociais, fóruns de um tema) e use-o como ponto de partida. Há buscadores prontos feitos pela comunidade para temas como webcams e redes sociais.</p>
+<div class="grid two"><div class="tool"><a class="t" href="https://cse.google.com/">Google CSE</a></div><div class="tool"><a class="t" href="https://programmablesearchengine.google.com/">programmablesearchengine.google.com</a></div><div class="tool"><a class="t" href="https://cipher387.github.io/webcamcse/">CSE de webcams</a></div></div>
+</section>
+<section class="sec" id="b-alertas" data-group="B · Mecanismos de busca">
+<h2><span class="num">B7</span> Alertas e tendências</h2>
+<p class="lead">Monitorar é buscar uma vez e ser avisado sempre.</p>
+<p>Crie alertas para nome do alvo, marcas, domínios e termos do caso. Ferramentas de tendência mostram quando um assunto começou a crescer e em que região — útil para datar boatos e campanhas.</p>
+<div class="grid two"><div class="tool"><a class="t" href="https://www.google.com.br/alerts">Google Alerts</a></div><div class="tool"><a class="t" href="https://www.talkwalker.com/alerts">Talkwalker Alerts</a></div><div class="tool"><a class="t" href="https://trends.google.com.br/trends/">Google Trends</a></div><div class="tool"><a class="t" href="https://www.social-searcher.com/google-social-search/">Social Searcher — Google Social Search</a></div></div>
+</section>
+<section class="sec" id="b-bing" data-group="B · Mecanismos de busca">
+<h2><span class="num">B8</span> Bing e Yandex</h2>
+<ul><li><b>Bing</b>: bom para documentos; aceita <code>ip:</code> (sites hospedados num IP), <code>inbody:</code>, <code>contains:</code> (páginas que linkam um tipo de arquivo).</li><li><b>Yandex</b>: forte em busca por imagem de rostos e lugares, e em conteúdo do Leste Europeu.</li></ul>
+<div class="grid two"><div class="tool"><a class="t" href="https://help.bing.microsoft.com/#apex/18/pt-BR/10001/-1">Conheça os atalhos do Bing</a></div><div class="tool"><a class="t" href="https://yandex.com/">yandex.com</a></div></div>
+</section>
+<section class="sec" id="b-gmail" data-group="B · Mecanismos de busca">
+<h2><span class="num">B9</span> Operadores de busca no Gmail</h2>
+<p class="lead">Útil quando o material do caso chega por e-mail (ou na autoauditoria).</p>
+<ul><li><code>from:</code> · <code>to:</code> · <code>subject:</code> · <code>has:attachment</code> · <code>filename:pdf</code></li><li><code>after:2025/01/01</code> · <code>before:</code> · <code>older_than:1y</code> · <code>larger:10M</code></li><li><code>in:anywhere</code> inclui spam e lixeira.</li></ul>
+</section>
+<section class="sec" id="b-fatos" data-group="B · Mecanismos de busca">
+<h2><span class="num">B10</span> Checagem de fatos</h2>
+<p class="lead">Antes de checar, procure se alguém já checou.</p>
+<ul><li>Agências de checagem publicam verificações pesquisáveis por tema.</li><li>O buscador de checagens reúne verificações de várias agências no mundo.</li><li>Para conteúdo novo, aplique o método: origem (quem publicou primeiro), data, local, contexto e motivação.</li></ul>
+<div class="grid two"><div class="tool"><a class="t" href="https://toolbox.google.com/factcheck/explorer">Google Fact Check Explorer</a></div><div class="tool"><a class="t" href="https://www.snopes.com/fact-check/">Snopes Fact Check</a></div><div class="tool"><a class="t" href="https://checamos.afp.com/list">AFP Checamos</a></div><div class="tool"><a class="t" href="https://projetocomprova.com.br/">Projeto Comprova</a></div><div class="tool"><a class="t" href="https://apublica.org/checagem/">Agência Pública</a></div><div class="tool"><a class="t" href="https://www.aosfatos.org/">Aos Fatos</a></div><div class="tool"><a class="t" href="https://www.cnj.jus.br/programas-e-acoes/painel-de-checagem-de-fake-news/">CNJ — painel de checagem</a></div><div class="tool"><a class="t" href="https://noticias.uol.com.br/confere/">UOL Confere</a></div><div class="tool"><a class="t" href="https://lupa.uol.com.br/">Agência Lupa</a></div><div class="tool"><a class="t" href="https://posverda.de/r/?p=COVID-19">Pós-Verdade (COVID-19)</a></div><div class="tool"><a class="t" href="https://g1.globo.com/fato-ou-fake/">G1 Fato ou Fake</a></div><div class="tool"><a class="t" href="https://www.boatos.org/">Boatos.org</a></div><div class="tool"><a class="t" href="https://www.e-farsas.com/">E-farsas</a></div><div class="tool"><a class="t" href="https://politica.estadao.com.br/blogs/estadao-verifica/">Estadão Verifica</a></div><div class="tool"><a class="t" href="https://reporterslab.org/fact-checking/">Duke Reporters&#x27; Lab</a></div><div class="tool"><a class="t" href="https://hoaxy.iuni.iu.edu/">Hoaxy</a></div><div class="tool"><a class="t" href="https://www.factcheck.org/">FactCheck.org</a></div><div class="tool"><a class="t" href="https://www.snopes.com/">Snopes</a></div></div>
+</section>
+<section class="sec" id="b-ia" data-group="B · Mecanismos de busca">
+<h2><span class="num">B11</span> Busca e inteligência artificial</h2>
+<p class="lead">Assistentes de IA resumem, traduzem e sugerem caminhos; não são fonte.</p>
+<p>Peça sempre a fonte de cada afirmação e abra o link. Não cole dado pessoal ou sigiloso do caso em serviço externo. Use IA para gerar variações de busca, classificar resultados e redigir rascunhos — a conclusão é do analista.</p>
+<div class="grid two"><div class="tool"><a class="t" href="https://gemini.google.com/">Google Bard → Gemini</a></div><div class="tool"><a class="t" href="https://www.bing.com/images/create/">Criador de imagens do Bing</a></div></div>
+</section>
+<section class="sec" id="missoes" data-group="Praticar">
+<h2><span class="num">P1</span> Missões práticas</h2>
+<div id="missionList"></div>
+</section>
+<section class="sec" id="quiz" data-group="Praticar">
+<h2><span class="num">P2</span> Revisão</h2>
+<div class="pill" id="score">Acertos: 0 / 0</div>
+<div id="quizList"></div>
+<div class="done-row"><button class="btn" id="quizReset">Refazer</button></div>
+</section>
+<section class="sec" id="flash" data-group="Praticar">
+<h2><span class="num">P3</span> Flashcards e glossário</h2>
+<div class="flash" id="fc"><div class="in"><div class="f" id="fcF"></div><div class="b" id="fcB"></div></div></div>
+<div class="done-row" style="justify-content:space-between"><button class="btn" id="fcPrev">← Anterior</button><span class="progtxt" id="fcN"></span><button class="btn" id="fcNext">Próximo →</button></div>
+<details><summary>Ver glossário completo</summary><div class="body"><table id="glossTable"></table></div></details>
+</section>
+<section class="sec" id="lacunas" data-group="Praticar">
+<h2><span class="num">P4</span> Fontes e limites</h2>
+<ul><li>Texto e laboratórios autorais (DEIVOSINT). As referências legais devem ser conferidas na versão vigente.</li><li>Ferramentas de terceiros mudam e saem do ar; o status mostrado é o da última revisão.</li><li>Nada aqui autoriza interagir com alvos sob identidade falsa fora de investigação oficial autorizada.</li></ul>
+<div class="done-row"><button class="btn" id="resetAll">Zerar meu progresso</button></div>
+</section>

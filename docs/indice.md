@@ -25,6 +25,9 @@
 | “A imagem confirma local e data?” | [GEOINT/IMINT](geoint-imint.md) |
 | “Como registro evidências para revisão?” | [Dados e proveniência](dados-e-proveniencia.md) |
 | “Quais referências merecem ser lidas primeiro?” | [Leituras essenciais](../recursos/leituras-essenciais.md) |
+| “O que é público nesta rede e como preservo?” | [Guias por plataforma](plataformas/README.md) |
+| “Onde consulto empresa, contrato ou diário oficial?” | [Registros públicos BR](plataformas/registros-publicos-br.md) |
+| “Qual fonte serve para esta categoria?” | [Lista completa de fontes](../recursos/lista-completa.md) |
 
 ## Rubrica comum (10 pontos)
 
