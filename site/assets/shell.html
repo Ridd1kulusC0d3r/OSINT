@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OSINT · Da fonte à evidência</title>
+<meta name="description" content="Hub aberto para aprender OSINT com método: guias, guias por plataforma, laboratórios, modelos, atlas de ferramentas e a Bíblia de fontes com mini guia de uso.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%2307070B' stroke='%235BF0E0' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%235BF0E0'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>/*CSS*/</style>
+</head>
+<body>
+<button class="btn menu-btn" id="menuBtn" aria-label="Abrir menu">☰ menu</button>
+<div class="wrap">
+<nav class="side" id="side">
+  <div class="brand">osint<span class="eye"></span></div>
+  <div class="brand-sub">da fonte à evidência · DEIVOSINT</div>
+  <div class="prog"><i id="progBar"></i></div>
+  <div class="progtxt" id="progTxt"></div>
+  <button class="btn theme" id="themeBtn">◐ claro / escuro</button>
+  <button class="btn theme" id="palBtn">⌕ buscar em tudo · Ctrl+K</button>
+  <div class="navh">Navegar</div>
+  <div class="mods" id="modsNav"></div>
+  <div class="navh" id="navSecH">Seções do módulo</div>
+  <ol class="navsec" id="navSec"></ol>
+  <div class="navfoot"><a href="https://github.com/Ridd1kulusC0d3r/OSINT">Repositório no GitHub</a> · <a href="https://github.com/Ridd1kulusC0d3r/OSINT/blob/main/CONTRIBUTING.md">Contribuir</a></div>
+</nav>
+<main>
+<div class="view" id="view-inicio">
+<header class="hero">
+  <img class="herosvg" src="assets/hero-osint.svg" alt="OSINT · Da fonte à evidência. Da evidência à inteligência.">
+  <h1>OSINT com método.<br>Não apenas links.</h1>
+  <p>Um hub aberto para aprender inteligência de fontes abertas, avaliar evidências e produzir inteligência rastreável. Estude por módulo, consulte os guias por plataforma, pratique nos laboratórios e use a Bíblia de fontes, com um mini guia de uso para cada uma.</p>
+  <div class="done-row" style="justify-content:flex-start"><button class="btn pri" id="homeNext">▶ Próxima ação</button><button class="btn" id="homePal">⌕ Buscar em tudo</button><a class="btn" href="#m13">Guias por plataforma</a><a class="btn" href="#m15">Laboratórios</a><a class="btn" href="#biblia">Bíblia de fontes</a></div>
+</header>
+<div class="call tip"><b>Quatro perguntas em toda prática</b>O que sabemos? · Como sabemos? · O que não sabemos? · O que mudaria nossa conclusão?</div>
+<div class="box pivbox"><h4>O que você tem em mãos?</h4><p class="progtxt">Cole um domínio, URL, IP, hash, coordenada, imagem, endereço de criptoativo ou um texto. A Central reconhece o tipo e monta os caminhos de verificação. Esta edição pública não monta consultas a partir de dados de pessoas.</p><div class="form pivrow"><input id="homePiv" placeholder="ex.: registro.br · https://www.gov.br/ · 8.8.8.8 · -15.7998, -47.8645"><button class="btn pri" id="homePivGo">Pivotar →</button></div></div>
+<div id="homeAct"></div>
+<div class="grid" id="homeStats"></div>
+<h3>Módulos</h3>
+<div class="cards" id="homeCards"></div>
+<div class="call note" style="margin-top:20px"><b>Uso responsável</b>Fontes abertas não são fontes livres: dados pessoais seguem protegidos pela LGPD, e encontrar algo exposto não autoriza acessá-lo. Leia <a href="#m12-qualidade-e-etica">qualidade e ética</a> antes de começar.</div>
+</div>
+<div class="view" id="view-central">
+<header class="hero"><h1>Central de pivôs</h1><p>Um identificador entra, os caminhos de verificação saem. Reconhece o tipo do dado e monta as consultas com as fontes e técnicas dos módulos. Nada é enviado: os links só abrem quando você clica — abra no navegador de trabalho.</p></header>
+<div class="box form"><label>Identificador</label><div class="pivrow"><input id="pvIn" placeholder="domínio, URL, IP, hash, coordenada, imagem, criptoativo, UA-/G-/GTM-/pub-"><button class="btn" id="pvSave">+ Guardar no caso</button></div><div id="pvType" style="margin-top:8px"></div></div>
+<div id="pvOut"></div>
+</div>
+<div class="view" id="view-roteiros">
+<header class="hero"><h1>Roteiros de verificação</h1><p>Do ponto de partida ao relatório, um passo por vez. Cada passo aponta para a seção ou o laboratório que ensina a fazer.</p></header>
+<div id="rtBody"></div>
+</div>
+<div class="view" id="view-simulado">
+<header class="hero"><h1>Simulado e flashcards</h1><p>Todas as questões e todos os termos dos módulos num banco só. O que você erra volta até acertar.</p></header>
+<div class="tabs" id="smTabs"><button data-t="quiz">Simulado</button><button data-t="flash">Flashcards gerais</button><button data-t="hist">Meu desempenho</button></div>
+<div id="smBody"></div>
+</div>
+<div class="view" id="view-caderno">
+<header class="hero"><h1>Meu caderno</h1><p>Favoritos, anotações por seção, identificadores do caso e cópia de segurança. Tudo fica só neste navegador — exporte para não perder.</p></header>
+<div class="tabs" id="cdTabs"><button data-t="fav">★ Favoritos</button><button data-t="notes">Anotações</button><button data-t="case">Caso</button><button data-t="bkp">Backup</button></div>
+<div id="cdBody"></div>
+</div>
+<div class="view" id="view-biblia">
+<header class="hero"><h1>Bíblia de fontes</h1><p>Todas as fontes dos módulos e a lista completa por categoria, com status, filtro e um mini guia de uso para cada uma.</p></header>
+<div class="tabs" id="bibTabs"><button data-t="ferr">Fontes e links</button><button data-t="guia">Guias de uso</button><button data-t="glos">Glossário</button><button data-t="faq">Perguntas e respostas</button><button data-t="leis">Leis citadas</button><button data-t="labs">Laboratórios</button></div>
+<div id="bibBody"></div>
+</div>
+<div class="view" id="view-livro" hidden>
+<header class="hero"><h1>Livro</h1><p id="bookSub"></p><div class="done-row" style="justify-content:flex-start"><button class="btn pri" id="bookCopy">Copiar esqueleto (Markdown)</button></div></header>
+<div id="bookBody"></div>
+</div>
+<div class="view" id="view-treinamento">
+<header class="hero"><h1>Trilha de estudo</h1><p id="trainSub"></p><div class="done-row" style="justify-content:flex-start"><button class="btn pri" id="trainCopy">Copiar trilha (Markdown)</button></div></header>
+<div id="trainBody"></div>
+</div>
+<!--MODS-->
+</main>
+</div>
+<div id="focus" role="dialog" aria-modal="true"><div class="card">
+  <div class="meta" id="fMeta"></div><h3 id="fTitle"></h3><p id="fDesc"></p>
+  <div class="done-row"><button class="btn" id="fClose">Fechar</button><a class="btn" id="fGo" href="#">Abrir</a><button class="btn pri" id="fDone">✓ Feito — próxima</button></div>
+</div></div>
+<button class="btn pri fab" id="fab">▶ Próxima ação</button>
+<div class="toast" id="toast">Copiado!</div>
+<div id="pal" role="dialog" aria-modal="true" aria-label="Buscar em tudo"><div class="card"><input id="palIn" placeholder="Buscar seções, fontes, termos, perguntas, leis, roteiros…" autocomplete="off"><div id="palRes"></div><div class="progtxt palhint">↑ ↓ navegar · Enter abrir · Esc fechar</div></div></div>
+<footer class="sitefoot">OSINT · Ridd1kulusC0d3r · DEIVOSINT. Conteúdo didático; não é parecer jurídico. Base do OSINT Framework sob licença MIT, Copyright (c) 2017 Justin Nordine.</footer>
+<script>
+/*JS*/
+</script>
+<script>
+/*ENGINE*/
+</script>
+<script>
+/*PLUS*/
+</script>
+</body>
+</html>

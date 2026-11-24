@@ -1,0 +1,43 @@
+window.D={key:'osm09:',skip:['missoes','quiz','flash','lacunas'],doneMsg:'Atlas percorrido — todos os mapas abertos 🗺️',
+ebookNames:{},
+missions:[
+ ['Revise um módulo pelo mapa','Abra o mapa do módulo que você estudou há mais tempo e marque cada seção que ainda sabe explicar sem olhar.','a-m01'],
+ ['Exporte para o XMind','Exporte um mapa de módulo em OPML, salve como .opml e abra no XMind ou no FreeMind.','visao'],
+ ['Monte o AVI Sistema','Marque no mapa B2 o que o seu ambiente de investigação já tem e anote o que falta.','b-avi'],
+ ['Só ferramentas passivas','No buscador do OSINT Framework, ligue “só passivas” e “sem cadastro” e encontre três ferramentas para username.','lab-osf'],
+ ['Ache as ferramentas fora do ar','Filtre a categoria Email Address e conte quantas o próprio framework marca como fora do ar.','lab-osf'],
+ ['Siga um fluxo inteiro','Pegue um e-mail seu e percorra o fluxo C3 até o fim, marcando cada ramo.','c-email'],
+ ['Do e-mail ao domínio','No fluxo de e-mail, pule para o fluxo de domínio pelo ramo “Novos pivôs” e continue.','c-dominio'],
+ ['Crie o seu fluxo','Abra um fluxo no editor do Módulo 08, adapte ao seu tipo de caso e exporte.','c-fluxos']
+],
+Q:[
+ ['De onde vêm os mapas por módulo?',['de um PDF do curso','gerados a partir das seções e ferramentas de cada módulo do hub','do OSINT Framework','da IntelTechniques'],1,'Por isso devem ser gerados de novo quando um módulo muda.'],
+ ['Quantos mapas mentais vieram nos arquivos do curso?',['dois','quatro','seis','dez'],2,'Domínios, redes sociais, CPF, e-mail, AVI Sistema e imagens.'],
+ ['Qual a licença do OSINT Framework?',['proprietária','MIT','GPL','sem licença'],1,'Permite reutilizar com crédito.'],
+ ['No OSINT Framework, (T) indica…',['ferramenta paga','que precisa instalar e rodar localmente','Google dork','cadastro'],1,'(D) dork · (R) cadastro · (M) editar o link à mão.'],
+ ['“Toca o alvo” (OPSEC ativa) significa…',['a ferramenta é ilegal','a ferramenta faz requisições aos serviços pesquisados','a ferramenta é paga','precisa de VPN'],1,'Em investigação discreta, prefira as passivas.'],
+ ['O status “fora do ar” no OSINT Framework é…',['garantido','o declarado pelo projeto: confira antes de usar','do hub','da Bellingcat'],1,'Ver checagem no Módulo 08.'],
+ ['Em que formato um mapa vai para o XMind?',['OPML','PNG','CSV','PDF'],0,'Mermaid e Markdown também saem.'],
+ ['No fluxo de e-mail, o que fazer com a parte antes do @?',['ignorar','tratar como username','buscar no WHOIS','apagar'],1,'Muita gente reaproveita o nome de usuário.'],
+ ['No fluxo de e-mail, vazamentos…',['provam o fato','orientam a busca, não provam','são ilegais de citar','substituem o ofício'],1,'Ver Módulo 03.'],
+ ['No fluxo de username, o que não muda quando o perfil troca de nome?',['a bio','o ID numérico da conta','a foto','o número de seguidores'],1,'Ver Módulo 04.'],
+ ['No fluxo de telefone, o dado cadastral vem…',['de app de identificação','só por requisição','do WhatsApp','do Google'],1,'Ver o ofício no Módulo 05.'],
+ ['No fluxo de nome real, por que os buscadores de pessoas dos EUA ajudam pouco?',['são pagos','quase não cobrem brasileiros','são ilegais','exigem VPN'],1,'Use os registros públicos brasileiros do Módulo 06.'],
+ ['No fluxo de domínio, para ver certificados emitidos usa-se…',['crt.sh','Holehe','WhatsMyName','Wolfram'],0,'Mostra subdomínios e datas.'],
+ ['No fluxo de localização, Wolfram|Alpha serve para…',['posição do sol e clima numa data e lugar','WHOIS','senhas','redes sociais'],0,'Ajuda a datar e localizar fotos.'],
+ ['Os fluxos de pivô do atlas são…',['cópia dos fluxogramas da IntelTechniques','conteúdo próprio inspirado no formato da IntelTechniques','do OSINT Framework','do curso'],1,'Os originais não estão mais no site e têm direito autoral.']
+],
+G:[
+ ['Atlas','Conjunto de todos os mapas mentais do hub num só módulo.'],
+ ['Mapa por módulo','Árvore gerada do próprio hub: grupos, seções e ferramentas de um módulo.'],
+ ['OSINT Framework','Mapa de ferramentas OSINT gratuitas em árvore, licença MIT.'],
+ ['arf.json','Arquivo de dados do OSINT Framework, com a árvore e os metadados.'],
+ ['(T) (D) (R) (M)','Marcas do OSINT Framework: instalar, dork, cadastro, link editado à mão.'],
+ ['OPSEC passiva','A ferramenta não faz requisições ao alvo.'],
+ ['OPSEC ativa','A ferramenta consulta os serviços pesquisados: pode deixar rastro.'],
+ ['Fluxo de pivô','Roteiro “dado → ação → novo dado”.'],
+ ['Pivô','Usar um dado achado para buscar o próximo.'],
+ ['Freemium','Gratuito com recursos pagos.'],
+ ['OPML','Formato de árvore em texto que o XMind e o FreeMind importam.'],
+ ['Mermaid mindmap','Sintaxe de texto para desenhar mapas mentais em Markdown.']
+]};

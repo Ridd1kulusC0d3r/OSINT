@@ -14,14 +14,16 @@ Este roadmap separa o que **existe no repositório** do que ainda precisa de imp
 - [x] Templates de plano, evidência, hipóteses e relatório.
 - [x] Referências oficiais e catálogo CSV legível por máquina.
 - [x] Validação local de documentação e testes em CI.
-- [x] Preservação explícita do acervo legado não revisado.
+- [x] Preservação explícita do acervo legado não revisado (agora em `arquivo/legado/`).
+- [x] Site navegável no GitHub Pages, gerado do repositório (módulos, Bíblia de fontes com mini guias, roteiros, simulado).
+- [x] Guias por plataforma: redes sociais, buscadores e arquivos, mapas e imagens, registros públicos BR.
+- [x] Base de fontes (`recursos/fontes.json`) e lista completa por categoria, com crédito MIT ao OSINT Framework.
 
 ## Em avaliação
 
 - [ ] Revisão linha por linha de ferramentas e scripts históricos, com verificação de origem e direitos.
 - [ ] Módulo de dados abertos brasileiros com exemplos agregados verificáveis.
 - [ ] Notebook de limpeza, normalização e deduplicação de **dados sintéticos**.
-- [ ] Pequena documentação navegável no GitHub Pages, após confirmação da configuração.
 - [ ] Revisão humana trimestral das referências críticas.
 - [ ] Escolha explícita de licença apropriada pelo mantenedor.
 - [ ] Definição de descrição e tópicos do repositório nas configurações do GitHub.

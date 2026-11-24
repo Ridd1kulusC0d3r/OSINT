@@ -7,13 +7,13 @@ Os caminhos antigos continuam disponíveis para preservar histórico, citações
 | Área legada | Acesso | Estado |
 |---|---|---|
 | Introdução antiga | [README anterior](../arquivo/README-anterior.md) | Histórico |
-| Coleção de links | [Links OSINT](../Links%20OSINT) | Não revisado |
-| Ferramentas de busca | [TOOLS](../TOOLS/Ferramentas%20de%20Busca.md) | Não revisado |
-| Scripts e exemplos | [Scripts](../Scripts) | Não auditado; não executar sem revisão |
-| Visuais | [IMINT](../IMINT) | Não revisado |
-| Redes sociais | [SOCMiNT](../SOCMiNT) | Não revisado |
-| Habilidades | [Skils.md](../Skils.md) | Índice histórico |
-| Notas | [Notes](../Notes) | Histórico |
+| Coleção de links | [Links OSINT](../arquivo/legado/Links%20OSINT) | Não revisado |
+| Ferramentas de busca | [TOOLS](../arquivo/legado/TOOLS/Ferramentas%20de%20Busca.md) | Não revisado |
+| Scripts e exemplos | [Scripts](../arquivo/legado/Scripts) | Não auditado; não executar sem revisão |
+| Visuais | [IMINT](../arquivo/legado/IMINT) | Não revisado |
+| Redes sociais | [SOCMiNT](../arquivo/legado/SOCMiNT) | Não revisado |
+| Habilidades | [Skils.md](../arquivo/legado/Skils.md) | Índice histórico |
+| Notas | [Notes](../arquivo/legado/Notes) | Histórico |
 
 ## Critério de migração
 

@@ -1,0 +1,7 @@
+/* edição GitHub Pages */
+.herosvg{width:100%;max-width:980px;display:block;border-radius:14px;margin:0 0 18px;border:1px solid var(--line)}
+.navfoot{margin-top:18px;font-size:12px;color:var(--mut)}.navfoot a{color:var(--mut)}
+.sitefoot{padding:28px 20px 60px;text-align:center;font-size:12px;color:var(--mut);border-top:1px solid var(--line);margin-top:30px}
+pre.mermaid{background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:14px;text-align:center;overflow:auto}
+.view.mod h5{font-size:14px;margin:14px 0 6px}
+[hidden]{display:none!important}

@@ -37,6 +37,6 @@ Antes de enviar material novo, confirme:
 
 ## Gestão do acervo legado
 
-Os diretórios `TOOLS/`, `Scripts/`, `IMINT/`, `SOCMiNT/` e arquivos históricos existem por preservação de contexto. **Não são uma whitelist** de serviços, software ou práticas. Referências sensíveis, quebradas, desatualizadas ou incompatíveis com estes princípios não devem ser promovidas ao catálogo principal. Uma futura limpeza requer revisão item a item, mantendo histórico de alterações quando apropriado.
+Os diretórios em `arquivo/legado/` (`TOOLS/`, `Scripts/`, `IMINT/`, `SOCMiNT/` e outros arquivos históricos) existem por preservação de contexto. **Não são uma whitelist** de serviços, software ou práticas. Referências sensíveis, quebradas, desatualizadas ou incompatíveis com estes princípios não devem ser promovidas ao catálogo principal. Uma futura limpeza requer revisão item a item, mantendo histórico de alterações quando apropriado.
 
 **Base de referência:** [Berkeley Protocol](https://humanrights.berkeley.edu/publications/berkeley-protocol-on-digital-open-source-investigations/) e [Exposing the Invisible](https://exposingtheinvisible.org/en/). Esta política é do repositório e não substitui avaliação jurídica em casos concretos.
